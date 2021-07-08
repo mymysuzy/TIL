@@ -8,7 +8,7 @@
 
 ## Algorithm
 
-[👩‍💻 Click !](https://github.com/mymysuzy/TIL/tree/master/Algorithm)
+[🙌 Click !](https://github.com/mymysuzy/TIL/tree/master/Algorithm)
 
 
 
