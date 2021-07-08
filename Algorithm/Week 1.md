@@ -1,10 +1,9 @@
-# Week 1 
-
+# Algorithm
+## Week 1
 > 210702~210708  
 
+<br>
 
-
-## Algorithm
 
 #### Codeup
 
