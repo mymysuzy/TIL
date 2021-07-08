@@ -26,3 +26,9 @@
 * [CodeUp # Python 기초 100제_6097_설탕과자 뽑기](https://pythontoomuchinformation.tistory.com/274)
 * [CodeUp # Python 기초 100제_6098_성실한 개미](https://pythontoomuchinformation.tistory.com/282)
 
+
+
+### 제코베
+
+[제코베 Code Festival Python 100제 1권_문제 1~7](https://pythontoomuchinformation.tistory.com/291)
+
