@@ -9,7 +9,7 @@
 <br>
 
 
-#### Codeup
+### Codeup
 
 * [CodeUp # Python 기초 100제_6020_주민번호 입력받아 형태 바꿔 출력하기](https://pythontoomuchinformation.tistory.com/252?category=882631)
 * [CodeUp # Python 기초 100제_6018_시간 입력받아 그대로 출력하기](https://pythontoomuchinformation.tistory.com/254?category=882631)
@@ -33,6 +33,8 @@
 
 ### 제코베
 
-[제코베 Code Festival Python 100제 1권_문제 1~7](https://pythontoomuchinformation.tistory.com/291)
+* [제코베 Code Festival Python 100제 1권_문제 1~7](https://pythontoomuchinformation.tistory.com/291)
 
-[제코베 Code Festival Python 100제 1권_문제 8~14](https://pythontoomuchinformation.tistory.com/292)
+* [제코베 Code Festival Python 100제 1권_문제 8~14](https://pythontoomuchinformation.tistory.com/292)
+
+* [제코베 Code Festival Python 100제 1권_문제 15~24](https://pythontoomuchinformation.tistory.com/294)
