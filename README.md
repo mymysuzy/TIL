@@ -74,3 +74,7 @@
 
 [마우스 우클릭, 새로 만들기 메뉴에 Typora추가하기](https://pythontoomuchinformation.tistory.com/290?category=906431)
 
+<details>
+<summary>교재 : [컴퓨팅 사고력을 키우는 이산수학](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791156643050)</summary>
+컴퓨터 연산을 이해하기 위해 필요한 수학적 이론을 쉽게 풀어낸 이산수학 입문서임. 기본적인 수학지식과 컴퓨터 관련지식을 이해하고 있다면 학습에 많은 도움이 될것임
+</details>
