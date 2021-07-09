@@ -76,6 +76,6 @@
 
 <details>
 <summary>Etc</summary>
-- [IDE란? (통합 개발환경)](https://pythontoomuchinformation.tistory.com/251)
-- [마우스 우클릭, 새로 만들기 메뉴에 Typora추가하기](https://pythontoomuchinformation.tistory.com/290?category=906431)
+   [IDE란? (통합 개발환경)](https://pythontoomuchinformation.tistory.com/251)
+   [마우스 우클릭, 새로 만들기 메뉴에 Typora추가하기](https://pythontoomuchinformation.tistory.com/290?category=906431)
 </details>
