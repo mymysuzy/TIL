@@ -10,7 +10,10 @@
 
 [👍 Click !](https://github.com/mymysuzy/TIL/tree/master/Algorithm)
 
+<br>
 
+## CS
+[👍 Click!](https://github.com/mymysuzy/TIL/tree/master/CS)
 
 <br>
 
@@ -21,26 +24,6 @@
 [Jenkins / Docker / 웹서버 / 성능테스트(nGrinder) 간단정리](https://pythontoomuchinformation.tistory.com/244)
 
 [Docker(도커)란?](https://pythontoomuchinformation.tistory.com/283)
-
-
-
-
-
-
-<br>
-
-## Kubernetes
-
-#### 개념
-
-[컨테이너 오케스트레이션 부터 쿠버네틱스 까지](https://pythontoomuchinformation.tistory.com/284)
-
-[마이크로 서비스 아키텍쳐(MSA)란?](https://pythontoomuchinformation.tistory.com/285?category=906431)
-
-
-
-
-
 
 <br>
 
@@ -56,15 +39,19 @@
 
 [웹 서버와 WAS의 차이점? + 정적 페이지와 동적 페이지](https://pythontoomuchinformation.tistory.com/280)
 
-
-
-
-
-
 <br>
 
 ## Jenkins
 
+<br>
+
+## Kubernetes
+
+#### 개념
+
+[컨테이너 오케스트레이션 부터 쿠버네틱스 까지](https://pythontoomuchinformation.tistory.com/284)
+
+[마이크로 서비스 아키텍쳐(MSA)란?](https://pythontoomuchinformation.tistory.com/285?category=906431)
 
 <br>
 
