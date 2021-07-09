@@ -35,3 +35,4 @@
 
 [제코베 Code Festival Python 100제 1권_문제 1~7](https://pythontoomuchinformation.tistory.com/291)
 
+[제코베 Code Festival Python 100제 1권_문제 8~14](https://pythontoomuchinformation.tistory.com/292)
