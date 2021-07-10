@@ -12,5 +12,6 @@
 
 
 
-* [이산수학 개요](https://pythontoomuchinformation.tistory.com/295)
+* [이산수학_개요](https://pythontoomuchinformation.tistory.com/295)
+* [이산수학_명제와 연산자](https://pythontoomuchinformation.tistory.com/297)
 
