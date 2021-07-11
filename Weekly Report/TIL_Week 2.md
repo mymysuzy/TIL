@@ -35,5 +35,24 @@
 
 ## 210711
 
-* Week 1
+* Week 1 다시 틀린 문제 모음
 
+  * join함수
+
+    * [CodeUp # Python 기초 100제_6020_주민번호 입력받아 형태 바꿔 출력하기](https://pythontoomuchinformation.tistory.com/252?category=882631)
+
+  * 비트단위 시프트 연산자 (이산수학의 연산자와 헷갈리지 말자.)
+
+    * [CodeUp # Python 기초 100제_6046_정수 1개 입력받아 2배 곱해 출력하기_(비트시프트연산)](https://pythontoomuchinformation.tistory.com/263?category=882631)
+
+  * 16진수 input받는 법과 출력하는 법
+
+    * [CodeUp # Python 기초 100제_6081_16진수 구구단 출력하기](https://pythontoomuchinformation.tistory.com/269?category=882631)
+
+  * 2차원 배열 다루는 법
+
+    * [CodeUp # Python 기초 100제_6096_바둑알 십자 뒤집기](https://pythontoomuchinformation.tistory.com/273)
+    * [CodeUp # Python 기초 100제_6097_설탕과자 뽑기](https://pythontoomuchinformation.tistory.com/274)
+    * [CodeUp # Python 기초 100제_6098_성실한 개미](https://pythontoomuchinformation.tistory.com/282)
+
+    

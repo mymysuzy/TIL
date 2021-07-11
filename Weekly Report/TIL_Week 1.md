@@ -78,14 +78,8 @@
 
 * [마우스 우클릭, 새로 만들기 메뉴에 Typora추가하기](https://pythontoomuchinformation.tistory.com/290?category=906431)
 
-* GitHub 
-
-  * 새 노트북에 GitHub 다운로드
-* TIL 레포지터리 정리
-  * 오늘자 TIL 업로드
-
 * Algorithm (제코베)
 
   * [제코베 Code Festival Python 100제 1권_문제 1~7](https://pythontoomuchinformation.tistory.com/291)
 
-  
+
