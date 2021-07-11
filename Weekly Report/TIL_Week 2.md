@@ -54,5 +54,6 @@
     * [CodeUp # Python 기초 100제_6096_바둑알 십자 뒤집기](https://pythontoomuchinformation.tistory.com/273)
     * [CodeUp # Python 기초 100제_6097_설탕과자 뽑기](https://pythontoomuchinformation.tistory.com/274)
     * [CodeUp # Python 기초 100제_6098_성실한 개미](https://pythontoomuchinformation.tistory.com/282)
+* CS (이산수학)
+  * [이산수학_역, 이, 대우](https://pythontoomuchinformation.tistory.com/298)
 
-    
