@@ -1,3 +1,13 @@
+# TIL
+
+<br>
+
+## Week 2
+
+> 210709~210715
+
+<br>
+
 ## 210709
 
 * Algorithm (제코베)
@@ -20,3 +30,10 @@
 
 * CS (이산수학)
   * [이산수학_명제와 연산자](https://pythontoomuchinformation.tistory.com/297)
+
+
+
+## 210711
+
+* Week 1
+

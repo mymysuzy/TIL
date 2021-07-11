@@ -1,3 +1,13 @@
+# TIL
+
+<br>
+
+## Week 1
+
+> 210702~210708
+
+<br>
+
 ## 210702
 
 * [Jenkins / Docker / 웹서버 / 성능테스트(nGrinder) 간단정리](https://pythontoomuchinformation.tistory.com/244)
