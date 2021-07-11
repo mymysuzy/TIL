@@ -1,8 +1,17 @@
 # 🎨 Today I Learned
 
-> 매일 공부한 내용을 정리하여 제 [개인 블로그](https://pythontoomuchinformation.tistory.com/)에 게시하였고 링크만 간단히 가져왔습니다.
-> 
-> 제가 언제 어떤 것을 공부하였는지 알 수 있습니다.👩‍💻💦
+안녕하세요? `박소현`의 GitHub을 찾아주셔서 감사합니다!
+
+<br>
+
+저는 매일 공부한 내용을 정리하여 제 [개인 블로그](https://pythontoomuchinformation.tistory.com/)에 게시하고 있습니다. 
+따라서 이 레포지터리에는 해당 게시물로 안내해주는 `링크`를 걸어두었습니다.
+
+<br>
+
+현재의 README파일에는 공부한 내용을 `과목별`로 나열해두었고,
+
+만약 `주 마다` 어떤 것을 공부하였는지 알고싶다면 [여기](https://github.com/mymysuzy/TIL/tree/master/Weekly%20Report)를 클릭해주세요. 👩‍💻💦
 
 <br>
 
