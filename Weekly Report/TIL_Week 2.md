@@ -57,3 +57,15 @@
 * CS (이산수학)
   * [이산수학_역, 이, 대우](https://pythontoomuchinformation.tistory.com/298)
 
+
+
+## 210712
+
+* [Spring Boot_사전 세팅 / 프로젝트 생성 / 서버 실행](https://pythontoomuchinformation.tistory.com/299)
+
+* [Swagger란? + Swagger 시작하기](https://pythontoomuchinformation.tistory.com/301)
+
+* [Git remote하는법 + 리모트 저장소란?](https://pythontoomuchinformation.tistory.com/302)
+
+* [SPA의 정의와 장단점](https://pythontoomuchinformation.tistory.com/303)
+
