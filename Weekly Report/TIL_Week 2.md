@@ -69,3 +69,6 @@
 
 * [SPA의 정의와 장단점](https://pythontoomuchinformation.tistory.com/303)
 
+* CS (이산수학)
+  * [이산수학_동치](https://pythontoomuchinformation.tistory.com/304)
+

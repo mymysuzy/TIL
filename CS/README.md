@@ -20,3 +20,5 @@
 * [이산수학_명제와 연산자](https://pythontoomuchinformation.tistory.com/297)
 * [이산수학_역, 이, 대우](https://pythontoomuchinformation.tistory.com/298)
 
+* [이산수학_동치](https://pythontoomuchinformation.tistory.com/304)
+
