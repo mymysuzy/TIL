@@ -77,7 +77,14 @@
 ## 210713
 
 * [ORM이란?](https://pythontoomuchinformation.tistory.com/306)
+
 * [JPA / Hibernate / Spring Data JPA의 관계 + MyBatis와 비교](https://pythontoomuchinformation.tistory.com/307)
+
+* [Docker에 MariaDB설치하기 + 에러 해결법(Ports are not available)](https://pythontoomuchinformation.tistory.com/311)
+
+* [JavaScript의 단점으로 인해 탄생한 node.js](https://pythontoomuchinformation.tistory.com/312)
+
+* [Maven이란?](https://pythontoomuchinformation.tistory.com/313)
 
 * CS (이산수학)
 
