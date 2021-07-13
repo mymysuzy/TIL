@@ -77,7 +77,11 @@
 ## 210713
 
 * [ORM이란?](https://pythontoomuchinformation.tistory.com/306)
-
 * [JPA / Hibernate / Spring Data JPA의 관계 + MyBatis와 비교](https://pythontoomuchinformation.tistory.com/307)
+
+* CS (이산수학)
+
+  * [이산수학_명제](https://pythontoomuchinformation.tistory.com/309)
+  * [이산수학_명제의 논리적 표현](https://pythontoomuchinformation.tistory.com/310)
 
   

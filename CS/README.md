@@ -4,7 +4,7 @@
 
 안녕하세요? 🙋🏻‍♀️
 
-이 곳은 [동빈나 유투브](https://www.youtube.com/watch?v=TLszG8J8mgs&t=1s)를 통해 이산수학에 대해 공부한 내용을 모아둔 곳입니다.
+이 곳은 [동빈나 유투브](https://www.youtube.com/watch?v=TLszG8J8mgs&t=1s) 혹은  [이산수학 유투브](https://www.youtube.com/playlist?list=PLD8rdlfZeJk7ijUM8ckwLLNyDKRD2aQa2)을 통해 공부한 내용을 모아둔 곳입니다.
 
 <br>
 
@@ -16,9 +16,18 @@
 
 
 
+##  👻 [동빈나 유투브](https://www.youtube.com/watch?v=TLszG8J8mgs&t=1s) 
+
 * [이산수학_개요](https://pythontoomuchinformation.tistory.com/295)
 * [이산수학_명제와 연산자](https://pythontoomuchinformation.tistory.com/297)
 * [이산수학_역, 이, 대우](https://pythontoomuchinformation.tistory.com/298)
 
 * [이산수학_동치](https://pythontoomuchinformation.tistory.com/304)
+
+
+
+##  🎃 [이산수학 유투브](https://www.youtube.com/playlist?list=PLD8rdlfZeJk7ijUM8ckwLLNyDKRD2aQa2)
+
+* [이산수학_명제](https://pythontoomuchinformation.tistory.com/309)
+* [이산수학_명제의 논리적 표현](https://pythontoomuchinformation.tistory.com/310)
 
