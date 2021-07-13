@@ -72,3 +72,12 @@
 * CS (이산수학)
   * [이산수학_동치](https://pythontoomuchinformation.tistory.com/304)
 
+
+
+## 210713
+
+* [ORM이란?](https://pythontoomuchinformation.tistory.com/306)
+
+* [JPA / Hibernate / Spring Data JPA의 관계 + MyBatis와 비교](https://pythontoomuchinformation.tistory.com/307)
+
+  
