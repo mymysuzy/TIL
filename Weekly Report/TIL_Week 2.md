@@ -102,3 +102,13 @@
 
 
 
+## 210715
+
+Week 2 다시 공부한 문제 모음
+
+* [SPA의 정의와 장단점](https://pythontoomuchinformation.tistory.com/303)
+* [JPA / Hibernate / Spring Data JPA의 관계 + MyBatis와 비교](https://pythontoomuchinformation.tistory.com/307)
+* [SPA의 정의와 장단점](https://pythontoomuchinformation.tistory.com/303)
+* [이산수학_문제풀이 1](https://pythontoomuchinformation.tistory.com/315)
+* [이산수학_문제풀이 2](https://pythontoomuchinformation.tistory.com/316)
+
