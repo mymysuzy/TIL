@@ -33,5 +33,6 @@
 * [이산수학_문제풀이 1](https://pythontoomuchinformation.tistory.com/315)
 * [이산수학_문제풀이 2](https://pythontoomuchinformation.tistory.com/316)
 * [이산수학_연역법과 귀납법, 수학적 귀납법](https://pythontoomuchinformation.tistory.com/319)
-* [이산수학_연역법과 귀납법 문제 풀이](https://pythontoomuchinformation.tistory.com/320)
+* [이산수학_연역법, 귀납법, 수학적 귀납법 문제 풀이](https://pythontoomuchinformation.tistory.com/320)
+* [이산수학_부울대수와 논리회로 설계 1](https://pythontoomuchinformation.tistory.com/324)
 
