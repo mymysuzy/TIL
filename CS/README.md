@@ -41,3 +41,9 @@
 * [이산수학_부울대수 문제풀이 2](https://pythontoomuchinformation.tistory.com/329)
 * [이산수학_부울식 최소화 문제 풀이](https://pythontoomuchinformation.tistory.com/330)
 
+
+
+## 🍟 이산수학 알고리즘/그래프 - [이산수학 유투브](https://www.youtube.com/playlist?list=PLD8rdlfZeJk6evHY9NsnBqXKrreNbTqFv)
+
+* [이산수학_알고리즘 (1)](https://pythontoomuchinformation.tistory.com/331)
+* [이산수학_그래프 1: 오일러 순환과 해밀턴 순환](https://pythontoomuchinformation.tistory.com/332)
