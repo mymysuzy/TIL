@@ -50,3 +50,9 @@
   * [이산수학_알고리즘 (1)](https://pythontoomuchinformation.tistory.com/331)
   * [이산수학_그래프 1: 오일러 순환과 해밀턴 순환](https://pythontoomuchinformation.tistory.com/332)
 
+
+
+## 210720
+
+* [Charset? ASCII? UTF-8? 인코딩 방식!](https://pythontoomuchinformation.tistory.com/333)
+
