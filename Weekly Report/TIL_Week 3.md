@@ -44,6 +44,8 @@
 
 
 
+
+
 ## 210719
 
 * CS(이산수학)
@@ -52,7 +54,17 @@
 
 
 
+
+
 ## 210720
 
 * [Charset? ASCII? UTF-8? 인코딩 방식!](https://pythontoomuchinformation.tistory.com/333)
+
+
+
+
+
+## 210721
+
+* [하이피치(Hi Pitch)를 통해 만난 AWS사의 클라우드 엔지니어](https://pythontoomuchinformation.tistory.com/334)
 
