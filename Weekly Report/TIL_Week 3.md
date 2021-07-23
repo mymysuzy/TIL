@@ -68,3 +68,13 @@
 
 * [하이피치(Hi Pitch)를 통해 만난 AWS사의 클라우드 엔지니어](https://pythontoomuchinformation.tistory.com/334)
 
+
+
+
+
+## 210722
+
+* 한 주 복습 중 재복습 필요한 항목들
+  * [이산수학_부울대수와 논리회로 설계 3](https://pythontoomuchinformation.tistory.com/327)
+  * [이산수학_부울대수 문제풀이 1](https://pythontoomuchinformation.tistory.com/328)
+
