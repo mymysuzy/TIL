@@ -38,3 +38,13 @@
 
 * [알고리즘]()
 
+
+
+
+
+## 210727
+
+* [Postman으로 Controller단 기능체크하기](https://pythontoomuchinformation.tistory.com/343)
+
+* [MariaDB 컨테이너 비밀번호 바꿔주기](https://pythontoomuchinformation.tistory.com/344)
+
