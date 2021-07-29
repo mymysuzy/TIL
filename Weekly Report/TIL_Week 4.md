@@ -48,3 +48,18 @@
 
 * [MariaDB 컨테이너 비밀번호 바꿔주기](https://pythontoomuchinformation.tistory.com/344)
 
+
+
+
+
+## 210728
+
+* [[에러 잡자] JAVA # The type List is not generic; it cannot be parameterized with arguments <~>](https://pythontoomuchinformation.tistory.com/346)
+* [ [에러 잡자] Spring boot # java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.](https://pythontoomuchinformation.tistory.com/347)
+
+
+
+## 210729
+
+* 한 주 복습
+
