@@ -26,3 +26,7 @@
 
 * [GitOps 정의와 GitOps Workflow](https://pythontoomuchinformation.tistory.com/353)
 
+* [Git # Gitflow / Git 명령어 연습하기 좋은 사이트 / Cheat Sheet](https://pythontoomuchinformation.tistory.com/354)
+
+* [클라우드 # 클라우드 컴퓨팅 / 서비스모델 / 개발자 공고의 클라우드 역량](https://pythontoomuchinformation.tistory.com/356)
+
