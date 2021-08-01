@@ -38,3 +38,9 @@
 
 * [지디넷 # 클라우드/환경분야 기사 스크랩](https://pythontoomuchinformation.tistory.com/359)
 
+
+
+## 210802
+
+* [데이터 엔지니어링 인터뷰](https://pythontoomuchinformation.tistory.com/360)
+
