@@ -30,3 +30,11 @@
 
 * [클라우드 # 클라우드 컴퓨팅 / 서비스모델 / 개발자 공고의 클라우드 역량](https://pythontoomuchinformation.tistory.com/356)
 
+
+
+## 210801
+
+* [개발자의 코드관리에 대한 나쁜 습관](https://pythontoomuchinformation.tistory.com/358)
+
+* [지디넷 # 클라우드/환경분야 기사 스크랩](https://pythontoomuchinformation.tistory.com/359)
+
