@@ -43,4 +43,5 @@
 ## 210802
 
 * [데이터 엔지니어링 인터뷰](https://pythontoomuchinformation.tistory.com/360)
+* [STS/Spring Boot 에서 Git 원격저장소 바꿔주는 방법](https://pythontoomuchinformation.tistory.com/362)
 
