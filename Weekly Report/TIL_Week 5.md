@@ -52,3 +52,11 @@
 * [데이터 크롤링이란? / 크롤링과 스크래핑 / 크롤링은 불법인가](https://pythontoomuchinformation.tistory.com/363)
 * [코딩 컨벤션 / 내가 사용중인 코딩컨벤션 스타일 확인하는 방법](https://pythontoomuchinformation.tistory.com/364)
 
+
+
+## 210804
+
+* [지디넷 # IT서비스업계의 ESG경영 열풍](https://pythontoomuchinformation.tistory.com/365)
+
+* [지디넷 # 원격근무로 인한 기업들의 데이터 유출 피해](https://pythontoomuchinformation.tistory.com/366)
+
