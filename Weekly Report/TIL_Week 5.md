@@ -50,4 +50,5 @@
 ## 210803
 
 * [데이터 크롤링이란? / 크롤링과 스크래핑 / 크롤링은 불법인가](https://pythontoomuchinformation.tistory.com/363)
+* [코딩 컨벤션 / 내가 사용중인 코딩컨벤션 스타일 확인하는 방법](https://pythontoomuchinformation.tistory.com/364)
 
