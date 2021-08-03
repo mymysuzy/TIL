@@ -45,3 +45,9 @@
 * [데이터 엔지니어링 인터뷰](https://pythontoomuchinformation.tistory.com/360)
 * [STS/Spring Boot 에서 Git 원격저장소 바꿔주는 방법](https://pythontoomuchinformation.tistory.com/362)
 
+
+
+## 210803
+
+* [데이터 크롤링이란? / 크롤링과 스크래핑 / 크롤링은 불법인가](https://pythontoomuchinformation.tistory.com/363)
+
