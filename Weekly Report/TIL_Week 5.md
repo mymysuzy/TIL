@@ -60,3 +60,9 @@
 
 * [지디넷 # 원격근무로 인한 기업들의 데이터 유출 피해](https://pythontoomuchinformation.tistory.com/366)
 
+
+
+## 210805
+
+* [마이데이터(MyData)란?](https://pythontoomuchinformation.tistory.com/372)
+
