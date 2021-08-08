@@ -31,3 +31,10 @@
 * [정보처리기사 # 2020.08_1과목](https://pythontoomuchinformation.tistory.com/380)
 * [정보처리기사 # 2020.06_1과목](https://pythontoomuchinformation.tistory.com/381)
 
+
+
+## 210809
+
+* [정보처리기사 # 2021.05_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/382)
+* [정보처리기사 # 2021.03_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/383)
+
