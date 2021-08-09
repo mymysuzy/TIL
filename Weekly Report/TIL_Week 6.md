@@ -37,4 +37,15 @@
 
 * [정보처리기사 # 2021.05_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/382)
 * [정보처리기사 # 2021.03_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/383)
+* [정보처리기사 # 2020.09_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/384)
+* [정보처리기사 # 2020.08_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/385)
+* [정보처리기사 # 2020.06_2과목 소프트웨어 개발](https://pythontoomuchinformation.tistory.com/386)
+
+
+
+## 210810
+
+* [정보처리기사 # 2021.05_3과목 데이터베이스 구축](https://pythontoomuchinformation.tistory.com/387)
+
+  
 
