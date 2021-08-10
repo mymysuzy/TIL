@@ -49,3 +49,11 @@
 * [정보처리기사 # 2021.03_3과목 데이터베이스 구축](https://pythontoomuchinformation.tistory.com/388)
 * [정보처리기사 # 2020.09_3과목 데이터베이스 구축](https://pythontoomuchinformation.tistory.com/389)
 
+
+
+## 210811
+
+* [정보처리기사 # 2020.08_3과목 데이터베이스 구축](https://pythontoomuchinformation.tistory.com/390)
+* [정보처리기사 # 2020.06_3과목 데이터베이스 구축](https://pythontoomuchinformation.tistory.com/391)
+* [정보처리기사 # 2021.05_4과목 프로그래밍 언어 활용](https://pythontoomuchinformation.tistory.com/392)
+
