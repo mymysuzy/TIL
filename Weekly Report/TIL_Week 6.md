@@ -65,4 +65,5 @@
 * [정보처리기사 # 2020.09_4과목 프로그래밍 언어 활용](https://pythontoomuchinformation.tistory.com/394)
 * [정보처리기사 # 2020.08_4과목 프로그래밍 언어 활용](https://pythontoomuchinformation.tistory.com/395)
 * [정보처리기사 # 2020.06_4과목 프로그래밍 언어 활용](https://pythontoomuchinformation.tistory.com/396)
+* [MySQL Workbench에서 EC2에 올린 원격 DB사용하기 및 Spring Boot 세팅](https://pythontoomuchinformation.tistory.com/398)
 
