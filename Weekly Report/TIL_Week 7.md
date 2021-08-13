@@ -21,3 +21,9 @@
 
 * [[에러 잡자] Error invoking remote method 'docker-start-container': Error: (HTTP code 500) server error - Ports are not available: listen tcp 0.0.0.0:3306]( https://pythontoomuchinformation.tistory.com/404)
 
+
+
+## 210814
+
+* [정보처리기사 # 2019.08 기출문제](https://pythontoomuchinformation.tistory.com/407)
+
