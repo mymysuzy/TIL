@@ -19,3 +19,5 @@
 
 * [정보처리기사 # 2020.06_5과목 정보시스템 구축관리](https://pythontoomuchinformation.tistory.com/403)
 
+* [[에러 잡자] Error invoking remote method 'docker-start-container': Error: (HTTP code 500) server error - Ports are not available: listen tcp 0.0.0.0:3306]( https://pythontoomuchinformation.tistory.com/404)
+
