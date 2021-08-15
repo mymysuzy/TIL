@@ -27,3 +27,9 @@
 
 * [정보처리기사 # 2019.08 기출문제](https://pythontoomuchinformation.tistory.com/407)
 
+
+
+## 210815
+
+* [Selenium으로 크롤링/스크래핑한 데이터 DB에 넣기]( https://pythontoomuchinformation.tistory.com/409)
+
