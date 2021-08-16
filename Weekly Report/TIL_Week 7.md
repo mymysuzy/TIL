@@ -33,3 +33,9 @@
 
 * [Selenium으로 크롤링/스크래핑한 데이터 DB에 넣기]( https://pythontoomuchinformation.tistory.com/409)
 
+
+
+## 210816
+
+* [프론트엔드 # 포토샵으로 타오바오 상세페이지 제작](https://pythontoomuchinformation.tistory.com/410)
+
