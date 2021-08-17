@@ -39,3 +39,8 @@
 
 * [프론트엔드 # 포토샵으로 타오바오 상세페이지 제작](https://pythontoomuchinformation.tistory.com/410)
 
+
+
+## 210817
+
+* [셀레니움(Selenium) chrome not reachable 에러](https://pythontoomuchinformation.tistory.com/411)
