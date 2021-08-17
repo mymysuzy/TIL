@@ -1,4 +1,4 @@
-## Briefing
+# Briefing
 
 [카카오맵](https://map.kakao.com/)을 사용하여 카페의 `이름`, `주소`, `전화번호` 등을 가져오는 `Scraping작업`을 진행했습니다.
 
@@ -10,7 +10,7 @@
 
 <br>
 
-## Before a start
+# Before a start
 
 >  스크래핑을 진행하기 위해선 **아래의 작업**이 선행되어야 합니다.
 
