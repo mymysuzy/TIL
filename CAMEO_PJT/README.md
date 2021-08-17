@@ -8,13 +8,13 @@
 
 `CafeInfoScraping_AfterErrorOccurred.py`는 `CafeInfoScraping.py`를 사용해서 스크래핑을 하던 도중 Error로 인해 스크래핑이 멈추게 되어 다시 시작할 경우에 사용한 파일입니다.
 
-
+<br>
 
 ## Before a start
 
 >  스크래핑을 진행하기 위해선 **아래의 작업**이 선행되어야 합니다.
 
-
+<br>
 
 1. Chrome 버전 확인
    
