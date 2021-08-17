@@ -19,12 +19,12 @@
 1. Chrome 버전 확인
    
    
-   <img src="https://user-images.githubusercontent.com/74548646/129755322-993ce996-28ab-4330-a6e6-95a3fa2fdb4c.png" alt="다운로드" style="zoom: 33%;" />
+   <img src="https://user-images.githubusercontent.com/74548646/129755322-993ce996-28ab-4330-a6e6-95a3fa2fdb4c.png" alt="다운로드" width="70%" height="70%" />
    
 2. [Chrome Drivers](https://chromedriver.chromium.org/downloads) 웹페이지에 접속해 Chrome 버전과 같은 드라이버로 다운로드한다.
    이때, Selenium을 돌릴 파일과 같은 경로에 다운로드하여야 한다.
 
-   <img src="https://user-images.githubusercontent.com/74548646/129755543-3c5a7ece-6cac-4bb5-889a-7c97902b405d.png" alt="다운로드" style="zoom:33%;" />
+   <img src="https://user-images.githubusercontent.com/74548646/129755543-3c5a7ece-6cac-4bb5-889a-7c97902b405d.png" alt="다운로드"  width="70%" height="70%" />
    
 3. CafeInfoScraping.py를 켜고 **원하는 검색어**를 71번째 줄의 `elem.send_keys`에 넣어준다.
    
