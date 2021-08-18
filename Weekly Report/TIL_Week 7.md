@@ -44,3 +44,18 @@
 ## 210817
 
 * [셀레니움(Selenium) chrome not reachable 에러](https://pythontoomuchinformation.tistory.com/411)
+
+
+
+## 210818
+
+* Github에 Selenium을 사용한 Scraping용 소스와 REAMD.md 파일 업로드
+
+
+
+## 210819
+
+* [셀레니움(Selenium) # ElementNotInteractableException Message: element not interactable에러](https://pythontoomuchinformation.tistory.com/414)
+* [셀레니움(Selenium) # 셀레니움 강의 추천](https://pythontoomuchinformation.tistory.com/415)
+* [알고리즘 사이트 비교 및 추천](https://pythontoomuchinformation.tistory.com/416)
+
