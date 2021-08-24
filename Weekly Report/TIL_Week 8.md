@@ -42,4 +42,14 @@
 
 * [VMware에 Ubuntu 설치 에러 # Your host does not meet minimum requirements to run VMware Player with Hyper-V or Device/Credential Guard enabled.](https://pythontoomuchinformation.tistory.com/426)
 * [ssh localhost 오류 # ssh: connect to host localhost port 22: Connection refused](https://pythontoomuchinformation.tistory.com/427)
+* [Hadoop 에러 # mkdir: `hdfs://localhost:9000/user/hadoop': No such file or directory](https://pythontoomuchinformation.tistory.com/428)
+
+
+
+## 210825
+
+* [현직자 인터뷰 # Google 이충민(Lee Chungmin)님](https://pythontoomuchinformation.tistory.com/429)
+
+* [리눅스 명령어 모음](https://pythontoomuchinformation.tistory.com/430)
+* [리눅스 # Ubuntu에서 Vi 파일 수정 시 방향키 및 문자 오류](https://pythontoomuchinformation.tistory.com/431)
 
