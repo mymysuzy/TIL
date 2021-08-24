@@ -33,9 +33,13 @@
 
 ## 210823
 
+* [정보처리기사 필기_시험 전 볼 내용 정리](https://pythontoomuchinformation.tistory.com/425)
+* [공통 프로젝트 # 사용했던 프로그램들의 버전](https://pythontoomuchinformation.tistory.com/424)
+
 
 
 ## 210824
 
-* [정보처리기사 필기_시험 전 볼 내용 정리](https://pythontoomuchinformation.tistory.com/425)
+* [VMware에 Ubuntu 설치 에러 # Your host does not meet minimum requirements to run VMware Player with Hyper-V or Device/Credential Guard enabled.](https://pythontoomuchinformation.tistory.com/426)
+* [ssh localhost 오류 # ssh: connect to host localhost port 22: Connection refused](https://pythontoomuchinformation.tistory.com/427)
 
