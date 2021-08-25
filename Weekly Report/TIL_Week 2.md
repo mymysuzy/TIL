@@ -8,7 +8,7 @@
 
 <br>
 
-## 210709
+### 210709
 
 * Algorithm (제코베)
   * [제코베 Code Festival Python 100제 1권_문제 8~14](https://pythontoomuchinformation.tistory.com/292)
@@ -23,7 +23,7 @@
 
 
 
-## 210710
+### 210710
 
 * Algorithm (제코베)
   * [제코베 Code Festival Python 100제 1권_문제 25~30](https://pythontoomuchinformation.tistory.com/296)
@@ -33,7 +33,7 @@
 
 
 
-## 210711
+### 210711
 
 * Week 1 다시 틀린 문제 모음
 
@@ -59,7 +59,7 @@
 
 
 
-## 210712
+### 210712
 
 * [Spring Boot_사전 세팅 / 프로젝트 생성 / 서버 실행](https://pythontoomuchinformation.tistory.com/299)
 
@@ -74,7 +74,7 @@
 
 
 
-## 210713
+### 210713
 
 * [ORM이란?](https://pythontoomuchinformation.tistory.com/306)
 
@@ -94,7 +94,7 @@
 
 
 
-## 210714
+### 210714
 
 * CS (이산수학)
   * [이산수학_문제풀이 1](https://pythontoomuchinformation.tistory.com/315)
@@ -102,7 +102,7 @@
 
 
 
-## 210715
+### 210715
 
 Week 2 다시 공부한 문제 모음
 

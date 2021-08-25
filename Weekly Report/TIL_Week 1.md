@@ -8,13 +8,13 @@
 
 <br>
 
-## 210702
+### 210702
 
 * [Jenkins / Docker / 웹서버 / 성능테스트(nGrinder) 간단정리](https://pythontoomuchinformation.tistory.com/244)
 
 
 
-## 210703
+### 210703
 
 * [IDE란? (통합 개발환경)](https://pythontoomuchinformation.tistory.com/251)
 * Algorithm (Codeup 기초 100제)
@@ -23,7 +23,7 @@
 
 
 
-## 210704
+### 210704
 
 * [파이참_Ctrl + 마우스 휠로 글자 크기 변경하기](https://pythontoomuchinformation.tistory.com/258)
 
@@ -42,7 +42,7 @@
 
 
 
-## 210705
+### 210705
 
 * Algorithm (Codeup 기초 100제)
   * [CodeUp # Python 기초 100제_6095_바둑판에 흰 돌 놓기](https://pythontoomuchinformation.tistory.com/272?category=882631)
@@ -51,9 +51,7 @@
 
 
 
-
-
-## 210706
+### 210706
 
 * [JDK란? + JRE, JVM 총 정리](https://pythontoomuchinformation.tistory.com/277)
 * [Eclipse R, RC1, M3, M2, M1 뜻과 차이점](https://pythontoomuchinformation.tistory.com/278)
@@ -64,7 +62,7 @@
 
 
 
-## 210707
+### 210707
 
 * [Docker(도커)란?](https://pythontoomuchinformation.tistory.com/283)
 
@@ -74,12 +72,11 @@
 
 
 
-## 210708
+### 210708
 
 * [마우스 우클릭, 새로 만들기 메뉴에 Typora추가하기](https://pythontoomuchinformation.tistory.com/290?category=906431)
 
 * Algorithm (제코베)
 
   * [제코베 Code Festival Python 100제 1권_문제 1~7](https://pythontoomuchinformation.tistory.com/291)
-
 

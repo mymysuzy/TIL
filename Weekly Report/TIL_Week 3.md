@@ -8,7 +8,7 @@
 
 <br>
 
-## 210716
+### 210716
 
 * CS (이산수학)
   * [이산수학_연역법과 귀납법, 수학적 귀납법](https://pythontoomuchinformation.tistory.com/319)
@@ -17,9 +17,7 @@
 
 
 
-
-
-## 210717
+### 210717
 
 * 정보처리기사(필기)
   * [비전공자의 정보처리기사 도전기\] 소프트웨어 생명주기 (+ 애자일 모형의 스크럼과 칸반 비교)](https://pythontoomuchinformation.tistory.com/321)
@@ -31,9 +29,7 @@
 
 
 
-
-
-## 210718
+### 210718
 
 * CS (이산수학)
   * [이산수학_부울대수와 논리회로 설계 2](https://pythontoomuchinformation.tistory.com/326)
@@ -44,9 +40,7 @@
 
 
 
-
-
-## 210719
+### 210719
 
 * CS(이산수학)
   * [이산수학_알고리즘 (1)](https://pythontoomuchinformation.tistory.com/331)
@@ -54,25 +48,19 @@
 
 
 
-
-
-## 210720
+### 210720
 
 * [Charset? ASCII? UTF-8? 인코딩 방식!](https://pythontoomuchinformation.tistory.com/333)
 
 
 
-
-
-## 210721
+### 210721
 
 * [하이피치(Hi Pitch)를 통해 만난 AWS사의 클라우드 엔지니어](https://pythontoomuchinformation.tistory.com/334)
 
 
 
-
-
-## 210722
+### 210722
 
 * 한 주 복습 중 재복습 필요한 항목들
   * [이산수학_부울대수와 논리회로 설계 3](https://pythontoomuchinformation.tistory.com/327)

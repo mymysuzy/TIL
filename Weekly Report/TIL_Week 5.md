@@ -10,7 +10,7 @@
 
 
 
-## 210730
+### 210730
 
 * 알고리즘
   * [백준 # Python_10872_팩토리얼](https://pythontoomuchinformation.tistory.com/349)
@@ -20,7 +20,7 @@
 
 
 
-## 210731
+### 210731
 
 * [DevOps 엔지니어의 정의/특징/공부방향](https://pythontoomuchinformation.tistory.com/352)
 
@@ -32,7 +32,7 @@
 
 
 
-## 210801
+### 210801
 
 * [개발자의 코드관리에 대한 나쁜 습관](https://pythontoomuchinformation.tistory.com/358)
 
@@ -40,21 +40,21 @@
 
 
 
-## 210802
+### 210802
 
 * [데이터 엔지니어링 인터뷰](https://pythontoomuchinformation.tistory.com/360)
 * [STS/Spring Boot 에서 Git 원격저장소 바꿔주는 방법](https://pythontoomuchinformation.tistory.com/362)
 
 
 
-## 210803
+### 210803
 
 * [데이터 크롤링이란? / 크롤링과 스크래핑 / 크롤링은 불법인가](https://pythontoomuchinformation.tistory.com/363)
 * [코딩 컨벤션 / 내가 사용중인 코딩컨벤션 스타일 확인하는 방법](https://pythontoomuchinformation.tistory.com/364)
 
 
 
-## 210804
+### 210804
 
 * [지디넷 # IT서비스업계의 ESG경영 열풍](https://pythontoomuchinformation.tistory.com/365)
 
@@ -62,7 +62,7 @@
 
 
 
-## 210805
+### 210805
 
 * [마이데이터(MyData)란?](https://pythontoomuchinformation.tistory.com/372)
 
