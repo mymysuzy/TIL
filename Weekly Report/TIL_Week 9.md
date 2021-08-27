@@ -16,3 +16,9 @@
 * [Hadoop # org.apache.hadoop.hdfs.server.namenode.SafeModeException](https://pythontoomuchinformation.tistory.com/441)
 * [Hadoop # ant실행 후 Driver파일에 cannot find symbol 에러가 떴을 경우](https://pythontoomuchinformation.tistory.com/442)
 
+
+
+## 210828
+
+* [Linux에서 Windows 바탕화면으로 파일 쉽게 옮기는 방법? WinSCP!](https://pythontoomuchinformation.tistory.com/443)
+
