@@ -22,3 +22,13 @@
 
 * [Linux에서 Windows 바탕화면으로 파일 쉽게 옮기는 방법? WinSCP!](https://pythontoomuchinformation.tistory.com/443)
 
+
+
+## 210829
+
+* 복습
+  * [StringTokenizer란?/charAt과 substring/offset이란?](https://pythontoomuchinformation.tistory.com/437)
+  * [서버개발 # AWS서버 환경설정 팁](https://pythontoomuchinformation.tistory.com/421)
+  * [Hadoop # HDFS cluster 구성/Namenode와 Datanode](https://pythontoomuchinformation.tistory.com/435)
+  * [hadoop 정리](https://pythontoomuchinformation.tistory.com/436)
+
