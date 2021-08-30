@@ -32,3 +32,9 @@
   * [Hadoop # HDFS cluster 구성/Namenode와 Datanode](https://pythontoomuchinformation.tistory.com/435)
   * [hadoop 정리](https://pythontoomuchinformation.tistory.com/436)
 
+
+
+## 210830
+
+* [Hadoop은 배치 프로그램(일괄처리)에 적합하다.](https://pythontoomuchinformation.tistory.com/446)
+
