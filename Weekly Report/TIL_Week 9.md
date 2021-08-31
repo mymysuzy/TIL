@@ -37,4 +37,12 @@
 ## 210830
 
 * [Hadoop은 배치 프로그램(일괄처리)에 적합하다.](https://pythontoomuchinformation.tistory.com/446)
+* [자소서 특강](https://pythontoomuchinformation.tistory.com/449)
+* [Branch별로 따로 작업할 때 git clone 하는 법](https://pythontoomuchinformation.tistory.com/450)
 
+
+
+## 210831
+
+* [Java # zulu란? / zulu 다운로드 방법](https://pythontoomuchinformation.tistory.com/451)
+* [Gitlab에 JIRA와 Mattermost 연동시키기](https://pythontoomuchinformation.tistory.com/453)
