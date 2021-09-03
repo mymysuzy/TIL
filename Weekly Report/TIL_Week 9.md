@@ -55,3 +55,13 @@
 * [간단한 Gitflow연습 # branch생성-checkout-merge-push까지!](https://pythontoomuchinformation.tistory.com/456)
 * [Github에 로컬에서 만들어준 브랜치가 안보일 때](https://pythontoomuchinformation.tistory.com/457)
 
+
+
+## 210902
+
+* [Git # Commit을 삭제함으로서 이전의 내용으로 완전히 복구하는 방법](https://pythontoomuchinformation.tistory.com/458)
+
+* [Git 에러 # Updates were rejected because the tip of your current branch is behind](https://pythontoomuchinformation.tistory.com/459)
+
+  
+
