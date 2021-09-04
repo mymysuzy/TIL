@@ -16,3 +16,7 @@
 
   
 
+## 210904
+
+* [제코베 Code Festival Python 100제 1권_문제 30~40](https://pythontoomuchinformation.tistory.com/472)
+
