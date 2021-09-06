@@ -23,3 +23,8 @@
 * [현직자들의 개발자로서의 취직에 대한 현실적이고 냉정한 이야기](https://pythontoomuchinformation.tistory.com/469)
 * [Git 공부에 도움되었던 사이트 모음](https://pythontoomuchinformation.tistory.com/471)
 
+
+
+## 210906
+
+* [Hadoop의 다양한 기능/서브 프로젝트들 (하둡 에코시스템)](https://pythontoomuchinformation.tistory.com/474)
