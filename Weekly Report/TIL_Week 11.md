@@ -12,3 +12,8 @@
 
 * [(비공개)RESTful한 URL이란?](https://pythontoomuchinformation.tistory.com/479)
 
+
+
+## 210911
+
+* [SSH란?](https://pythontoomuchinformation.tistory.com/482)
