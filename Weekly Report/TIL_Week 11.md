@@ -23,3 +23,4 @@
 ## 210913
 
 * [네트워크 패킷 분석 무료툴 # Fiddler(피들러)와 Wireshark(와이어 샤크)](https://pythontoomuchinformation.tistory.com/484)
+* [Upstream과 Downstream/Origin과 Upstream](https://pythontoomuchinformation.tistory.com/485)
