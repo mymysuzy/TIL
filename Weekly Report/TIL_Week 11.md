@@ -31,3 +31,8 @@
 
 * [자주 사용되는 Lombok 어노테이션](https://pythontoomuchinformation.tistory.com/489)
 
+
+
+## 210916
+
+* [JPA의 Entity와 Repository](https://pythontoomuchinformation.tistory.com/491)
