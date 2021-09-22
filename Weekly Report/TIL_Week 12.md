@@ -23,3 +23,10 @@
 ### 210920
 
 * [DTO와 VO](https://pythontoomuchinformation.tistory.com/496)
+
+
+
+#### 210922
+
+* [TCP/IP의 탄생배경 및 설명](https://pythontoomuchinformation.tistory.com/498)
+
