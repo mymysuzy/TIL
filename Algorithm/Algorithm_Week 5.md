@@ -17,3 +17,4 @@
 ## 210917
 
 * [백준 # Python_17608_막대기](https://pythontoomuchinformation.tistory.com/494)
+* [백준 # Python_2606_바이러스](https://pythontoomuchinformation.tistory.com/502)
