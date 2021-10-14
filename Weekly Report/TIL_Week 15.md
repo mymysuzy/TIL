@@ -17,3 +17,10 @@
 ### 211013
 
 * [배포 하며 참고했던 여러 사이트 및 명령어](https://pythontoomuchinformation.tistory.com/514)
+
+
+
+### 211014
+
+* [Nginx란? (생활코딩 스크랩 및 일부 수정)](https://pythontoomuchinformation.tistory.com/517)
+
