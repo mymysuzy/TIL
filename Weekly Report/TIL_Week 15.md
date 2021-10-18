@@ -24,3 +24,8 @@
 
 * [Nginx란? (생활코딩 스크랩 및 일부 수정)](https://pythontoomuchinformation.tistory.com/517)
 
+
+
+### 211018
+
+* [효율적인 테이블 설계 방법](https://pythontoomuchinformation.tistory.com/519)
