@@ -12,3 +12,8 @@
 
 * [RESTful API란?](https://pythontoomuchinformation.tistory.com/520)
 
+
+
+### 211020
+
+* [Python Syntax (파이썬 기초 문법)](https://pythontoomuchinformation.tistory.com/522)
