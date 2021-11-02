@@ -18,3 +18,8 @@
 
 * [Django로 웹사이트 구축 시 front단을 위한 Vscode extensions](https://pythontoomuchinformation.tistory.com/526)
 
+
+
+### 211102
+
+* [branch를 원격 저장소에 upstream시켜주기](https://pythontoomuchinformation.tistory.com/527)
