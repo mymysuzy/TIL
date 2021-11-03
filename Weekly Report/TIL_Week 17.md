@@ -23,3 +23,9 @@
 ### 211102
 
 * [branch를 원격 저장소에 upstream시켜주기](https://pythontoomuchinformation.tistory.com/527)
+
+
+
+### 211103
+
+* [RDBMS와 NoSQL의 차이점 및 장단점](https://pythontoomuchinformation.tistory.com/528)
