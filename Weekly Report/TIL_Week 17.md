@@ -29,3 +29,9 @@
 ### 211103
 
 * [RDBMS와 NoSQL의 차이점 및 장단점](https://pythontoomuchinformation.tistory.com/528)
+
+
+
+### 211104
+
+* [정규화와 비정규화 탄생배경 및 장단점](https://pythontoomuchinformation.tistory.com/529)
