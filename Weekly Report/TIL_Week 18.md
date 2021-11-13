@@ -32,3 +32,11 @@
 * [SQLD 자격증 # 데이터 모델링의 이해(과목1)_식별자](https://pythontoomuchinformation.tistory.com/537?category=913162)
 * [SQLD 자격증 # 데이터 모델과 성능(과목1)_성능 데이터 모델링의 개요](https://pythontoomuchinformation.tistory.com/543?category=913162)
 * [SQLD 자격증 # 데이터 모델과 성능(과목1)_정규화와 성능](https://pythontoomuchinformation.tistory.com/544?category=913162)
+
+
+
+### 211113
+
+* [SQLD 자격증 # 데이터 모델과 성능(과목1)_반정규화와 성능](https://pythontoomuchinformation.tistory.com/545?category=934577)
+* [SQLD 자격증 # 데이터 모델과 성능(과목1)_대량 데이터에 따른 성능](https://pythontoomuchinformation.tistory.com/546?category=934577)
+
