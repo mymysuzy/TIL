@@ -25,3 +25,12 @@
 * [SQLD 자격증 # SQL 활용(과목2)_표준 조인](https://pythontoomuchinformation.tistory.com/558)
 * [SQLD 자격증 # SQL 활용(과목2)_집합 연산자](https://pythontoomuchinformation.tistory.com/559)
 * [SQLD 자격증 # SQL 활용(과목2)_계층형 질의와 셀프 조인](https://pythontoomuchinformation.tistory.com/560)
+
+
+
+### 211117
+
+* [SQLD 자격증 # SQL 활용(과목2)_서브쿼리](https://pythontoomuchinformation.tistory.com/561?category=934577)
+* [SQLD 자격증 # SQL 활용(과목2)_그룹 함수](https://pythontoomuchinformation.tistory.com/562?category=934577)
+* [SQLD 자격증 # SQL 활용(과목2)_윈도우 함수](https://pythontoomuchinformation.tistory.com/563?category=934577)
+* [SQLD 자격증 # SQL 활용(과목2)_DCL](https://pythontoomuchinformation.tistory.com/564?category=934577)
