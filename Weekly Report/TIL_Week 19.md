@@ -34,3 +34,10 @@
 * [SQLD 자격증 # SQL 활용(과목2)_그룹 함수](https://pythontoomuchinformation.tistory.com/562?category=934577)
 * [SQLD 자격증 # SQL 활용(과목2)_윈도우 함수](https://pythontoomuchinformation.tistory.com/563?category=934577)
 * [SQLD 자격증 # SQL 활용(과목2)_DCL](https://pythontoomuchinformation.tistory.com/564?category=934577)
+
+
+
+### 211118
+
+* [SQLD 자격증 # SQL 활용(과목2)_절차형 SQL](https://pythontoomuchinformation.tistory.com/565)
+* [SQL 자격검정 실전문제 # 문제집 요점정리_과목 1](https://pythontoomuchinformation.tistory.com/566)
