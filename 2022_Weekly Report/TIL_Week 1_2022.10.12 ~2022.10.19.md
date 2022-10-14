@@ -6,7 +6,7 @@
 
 ### 2022.10.12
 
-#### 1. [MVVM 패턴이란 무엇인가?]([[Android] MVVM패턴에 대해 간단히 알아보자](https://pythontoomuchinformation.tistory.com/655))
+#### [MVVM 패턴이란 무엇인가?]([[Android] MVVM패턴에 대해 간단히 알아보자](https://pythontoomuchinformation.tistory.com/655))
 
 >  회사 코드를 분석하다가 **MVVM패턴을 따르고 있는 앱** 이라는 이야기를 듣고, 그동안 궁금했던 이 패턴에 대해 알아보기로 하였다.
 
@@ -64,15 +64,15 @@
 
 ### 2022.10.13
 
-#### 1. [Network에서 header란?](https://pythontoomuchinformation.tistory.com/656)
+#### [Network에서 header란?](https://pythontoomuchinformation.tistory.com/656)
 
-## 
+> 회사 앱의 소스코드를 분석하다가 
+
+
 
 ## Header
 
 > 데이터 앞 부분에 `파일에 대한 정보`를 실어놓은 부분
-
-
 
 주로 `데이터 형식` 혹은 `시간`과 `주소`에 대한 정보로 이뤄짐
 
@@ -88,8 +88,6 @@
 
 [Network Encyclopedia](https://networkencyclopedia.com/header/)
 
-
-
 `데이터를 전송하는 측면의 레이어`
 
 * 상위층에서 받은 **데이터에 Header를 붙여** 하위층에 넘긴다
@@ -104,10 +102,133 @@
 
 * 결국 전송측에서 보낸 **데이터만 남게된다.**
 
-
-
 ### [참고] Packet이란?
 
 > Network에서 데이터를 주고받을 때 정해놓은 규칙
 
 > 정보를 보낼 때 특정 형태를 맞추어 보낸다는 것
+
+
+
+---
+
+
+
+### 2022.10.14
+
+#### [안드로이드에서 Notification이란?](https://pythontoomuchinformation.tistory.com/manage/posts/)
+
+
+
+### Notification
+
+<img title="" src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-41-58-image.png" alt="" width="250">
+
+
+
+Notification이란, 위 사진과 같은 것을 이야기한다.
+
+
+
+사진 속 Notification은 Notification 중 가장 간단한 형태이며 아이콘, 제목, 컨텐츠를 보여준다.
+
+
+
+이러한 Notification을 만드려면 **먼저 Notification Channel을 생성해야 한다.**
+
+
+
+다음 코드는 Channel을 생성하는 코드이다.
+
+```kotlin
+private fun createNotificationChannel(context: Context, importance: Int, showBadge: Boolean,
+                                      name: String, description: String) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        val channelId = "${context.packageName}-$name"
+        val channel = NotificationChannel(channelId, name, importance)
+        channel.description = description
+        channel.setShowBadge(showBadge)
+
+        val notificationManager = context.getSystemService(NotificationManager::class.java)
+        notificationManager.createNotificationChannel(channel)
+    }
+}
+```
+
+
+
+NotificationManager.createNotificationChannel()로 채널을 생성할 수 있다.
+
+채널의 아이디, 이름, 중요도로 생성한 NotificationChannel 객체를 인자로 전달한다.
+
+
+
+* Channel Id : 앱마다 유니크한 Id를 생성해야한다.
+
+* Channel Name : 사용자에게 보여지는 채널의 이름
+
+* Channel Importance : 채널 중요도의 의미이며 IMPORTANCE_DEFAULT, IMPORTANCE_HIGH 등으로 설정할 수 있다.
+
+
+
+이제 Channel이 등록되었으니, Channel Id를 사용하여 Notification을 만들어주면 된다.
+
+
+
+만약 위와 같은 기본 Notification의 형태가 아닌 다른 style의 Notification을 사용하려면, 원하는 Style에 맞는 Notification을 선택하여 커스텀하면 된다.
+
+
+
+#### Style
+
+> 기본적인 Notification이 아닌 커스텀된 형태로 만들고 싶을 때가 있다.
+
+> 이럴 때 Android에선 자주 사용되는 Notification을 여러 Style로 만들어두었다.
+
+
+
+아래는 다양한 **Notification Style**중 몇 개를 들고와보았다.
+
+
+
+* `BigText`
+  
+  * 많은 양의 텍스트를 보여줄 수 있다.
+  
+  * 기본 Notification과 다르게 접고 펼 수 있는 기능이 있다.
+
+<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-48-22-image.png" title="" alt="" width="237">
+
+
+
+
+
+* `BigPicture`
+  
+  * 큰 이미지를 보여준다.
+
+<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-48-46-image.png" title="" alt="" width="228">
+
+
+
+
+
+* `Head up Notification`
+  
+  * 전면에 Notification이 뜬다.
+  
+  * 사용자가 Status Bar를 내려 확인하지 않아도 바로 화면에 뜬다.
+    
+    * 전화와 같은 중요한 작업을 알릴 때 사용
+
+<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-51-01-image.png" title="" alt="" width="244">
+
+
+
+REFERENCE
+
+https://codechacha.com/ko/notifications-in-android/
+
+
+
+---
