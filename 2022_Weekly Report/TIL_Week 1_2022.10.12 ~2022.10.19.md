@@ -20,7 +20,8 @@
 
 `Model`, `View`, `ViewModel`로 이루어져있다.
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-12-16-45-41-image.png)
+![image](https://user-images.githubusercontent.com/74548646/196339663-d9996379-1ea7-4788-9d3a-78f86a37b469.png)
+
 
 #### 
 
@@ -78,11 +79,11 @@
 
 ### 데이터를 주고 받는 과정을 확인함으로서 Header를 이해해보자
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-13-13-59-04-image.png)
+![image](https://user-images.githubusercontent.com/74548646/196339755-e6a9bdbd-f2ee-43d9-9e9b-64d7fa01ac24.png)
 
 [장구리, Lifelog : 네이버 블로그](https://blog.naver.com/hai0416/221593312143)
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-13-14-04-51-image.png)
+![image](https://user-images.githubusercontent.com/74548646/196339815-60e9b605-ee0b-48fa-a194-57875c4b490c.png)
 
 [Network Encyclopedia](https://networkencyclopedia.com/header/)
 
@@ -114,7 +115,7 @@
 
 ### Notification
 
-<img title="" src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-41-58-image.png" alt="" width="250">
+![image](https://user-images.githubusercontent.com/74548646/196339856-6090bdb8-8a41-4ffe-bc78-1002900e1744.png)
 
 Notification이란, 위 사진과 같은 것을 이야기한다.
 
@@ -167,13 +168,13 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
   
   * 기본 Notification과 다르게 접고 펼 수 있는 기능이 있다.
 
-<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-48-22-image.png" title="" alt="" width="237">
+![image](https://user-images.githubusercontent.com/74548646/196339890-15744e1d-ab0d-41c9-85fc-e5d535662a59.png)
 
 * `BigPicture`
   
   * 큰 이미지를 보여준다.
 
-<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-48-46-image.png" title="" alt="" width="228">
+![image](https://user-images.githubusercontent.com/74548646/196339934-07829fc8-7ef2-4118-a3e9-cd1d993cc940.png)
 
 * `Head up Notification`
   
@@ -183,7 +184,7 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
     
     * 전화와 같은 중요한 작업을 알릴 때 사용
 
-<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-51-01-image.png" title="" alt="" width="244">
+![image](https://user-images.githubusercontent.com/74548646/196339967-0950117e-c5b6-4fd2-a200-5f03f96beb86.png)
 
 REFERENCE
 
@@ -203,8 +204,7 @@ Java로 만들어진 프로젝트에 Kotlin 언어를 사용하기 위해선 Kot
 
 Android Studio의 [File] - [Settings] 로 들어간 후 검색창에 kotlin을 검색한다.
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-18-13-41-09-image.png)
-
+![image](https://user-images.githubusercontent.com/74548646/196340002-b48fd9fd-ca66-42cc-9d56-4883e918a965.png)
 
 
 만약 plugin이 설치되어 있지 않다면 설치를 진행해주자.
@@ -242,15 +242,14 @@ buildscript {
 
 Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 적혀있는 build.gradle에 적으라는 것이다.
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-18-13-55-34-image.png)
-
+![image](https://user-images.githubusercontent.com/74548646/196340040-36ff6936-5e7b-4b55-b20c-f269ba628a21.png)
 
 
 그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
 
 
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-18-13-58-03-image.png)
+![image](https://user-images.githubusercontent.com/74548646/196340056-93bd07a5-418e-4b62-b30b-0ca32f735bde.png)
 
 
 
