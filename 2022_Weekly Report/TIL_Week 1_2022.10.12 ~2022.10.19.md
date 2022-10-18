@@ -10,11 +10,9 @@
 
 >  회사 코드를 분석하다가 **MVVM패턴을 따르고 있는 앱** 이라는 이야기를 듣고, 그동안 궁금했던 이 패턴에 대해 알아보기로 하였다.
 
-## 
+<br>
 
 ## MVVM 패턴이란?
-
-### 
 
 ### 구성요소
 
@@ -22,7 +20,7 @@
 
 ![image](https://user-images.githubusercontent.com/74548646/196339663-d9996379-1ea7-4788-9d3a-78f86a37b469.png)
 
-#### 
+<br>
 
 #### View
 
@@ -32,17 +30,13 @@
 
 > View는 `UI업데이트를 위해 ViewModel과 Binding`하게 된다. 
 
-> 즉, View가 ViewModel을 구독하여 ViewModel의 상태가 변경되면 그 이벤트를 받아 UI를 갱신한다
-
-#### 
+> 즉, View가 ViewModel을 구독하여 ViewModel의 상태가 변경되면 그 이벤트를 받아 UI를 갱신한다 
 
 #### Model
 
 > 데이터와 관련된 `비즈니스 로직을 처리하는 곳`이다.
 
 > DB나 네트워크 등 `다양한 데이터 소스로 부터 필요한 데이터를 준비`한다.
-
-#### 
 
 #### ViewModel
 
@@ -54,11 +48,13 @@
 > MVC패턴의 Controller와 다른점은 `View가 ViewModel을 관찰하는 형태`로 binding되어 있다. 
 > 따라서 LiveData라이브러리를 통해 데이터 업데이트를 View가 자동으로 받을 수 있는 형태이다.
 
-#### 
+
 
 #### 기타
 
 `각 컴포넌트(View, ViewMode, Model)는` 서로 Reference를 가지지 않고 View -> ViewModel -> Model 형태의 `단방향 Dependency`를 가진다.
+
+<br>
 
 ---
 
@@ -66,7 +62,7 @@
 
 #### [Network에서 header란?](https://pythontoomuchinformation.tistory.com/656)
 
-> 회사 앱의 소스코드를 분석하다가 
+<br>
 
 ## Header
 
@@ -76,15 +72,21 @@
 
 ### 
 
+<br>
+
 ### 데이터를 주고 받는 과정을 확인함으로서 Header를 이해해보자
 
 ![image](https://user-images.githubusercontent.com/74548646/196339755-e6a9bdbd-f2ee-43d9-9e9b-64d7fa01ac24.png)
 
 [장구리, Lifelog : 네이버 블로그](https://blog.naver.com/hai0416/221593312143)
 
+<br>
+
 ![image](https://user-images.githubusercontent.com/74548646/196339815-60e9b605-ee0b-48fa-a194-57875c4b490c.png)
 
 [Network Encyclopedia](https://networkencyclopedia.com/header/)
+
+<br>
 
 `데이터를 전송하는 측면의 레이어`
 
@@ -100,17 +102,25 @@
 
 * 결국 전송측에서 보낸 **데이터만 남게된다.**
 
+#### 
+
+<br>
+
 #### [참고] Packet이란?
 
 > Network에서 데이터를 주고받을 때 정해놓은 규칙
 
 > 정보를 보낼 때 특정 형태를 맞추어 보낸다는 것
 
+<br>
+
 ---
 
 ### 2022.10.14
 
 #### [안드로이드에서 Notification이란?](https://pythontoomuchinformation.tistory.com/manage/posts/)
+
+<br>
 
 ### Notification
 
@@ -119,6 +129,8 @@
 Notification이란, 위 사진과 같은 것을 이야기한다.
 
 사진 속 Notification은 Notification 중 가장 간단한 형태이며 아이콘, 제목, 컨텐츠를 보여준다.
+
+<br>
 
 이러한 Notification을 만드려면 **먼저 Notification Channel을 생성해야 한다.**
 
@@ -139,6 +151,8 @@ private fun createNotificationChannel(context: Context, importance: Int, showBad
 }
 ```
 
+<br>
+
 NotificationManager.createNotificationChannel()로 채널을 생성할 수 있다.
 
 채널의 아이디, 이름, 중요도로 생성한 NotificationChannel 객체를 인자로 전달한다.
@@ -149,15 +163,23 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 * Channel Importance : 채널 중요도의 의미이며 IMPORTANCE_DEFAULT, IMPORTANCE_HIGH 등으로 설정할 수 있다.
 
+<br>
+
 이제 Channel이 등록되었으니, Channel Id를 사용하여 Notification을 만들어주면 된다.
 
 만약 위와 같은 기본 Notification의 형태가 아닌 다른 style의 Notification을 사용하려면, 원하는 Style에 맞는 Notification을 선택하여 커스텀하면 된다.
+
+<br>
 
 #### Style
 
 > 기본적인 Notification이 아닌 커스텀된 형태로 만들고 싶을 때가 있다.
 
 > 이럴 때 Android에선 자주 사용되는 Notification을 여러 Style로 만들어두었다.
+
+
+
+<br>
 
 아래는 다양한 **Notification Style**중 몇 개를 들고와보았다.
 
@@ -185,9 +207,13 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 ![image](https://user-images.githubusercontent.com/74548646/196339967-0950117e-c5b6-4fd2-a200-5f03f96beb86.png)
 
+<br>
+
 REFERENCE
 
 https://codechacha.com/ko/notifications-in-android/
+
+<br>
 
 ---
 
@@ -196,6 +222,8 @@ https://codechacha.com/ko/notifications-in-android/
 #### Java로 만들어진 프로젝트에 Kotlin으로 코드짜기
 
 Java로 만들어진 프로젝트에 Kotlin 언어를 사용하기 위해선 Kotlin언어에 대한 설정이 되어있어야 한다.
+
+<br>
 
 Android Studio의 [File] - [Settings] 로 들어간 후 검색창에 kotlin을 검색한다.
 
@@ -211,6 +239,8 @@ Android Studio의 [File] - [Settings] 로 들어간 후 검색창에 kotlin을 �
 
 여기서 버전은 1.7.10을 가리킨다.
 
+<br>
+
 Project `build.gradle`파일에 들어가 아래와 같이 Kotlin의 버전과 classpath가 선언되어있는지 확인해주고 그렇지 않다면 선언해주자.
 
 ```bash
@@ -224,19 +254,27 @@ buildscript {
 }
 ```
 
+<br>
+
 혹시나 해서 덧붙이는 건데, 나와 같이 build.gradle에 입력하라고 말하면 많은 build.gradle파일 중 어디에 입력하라는건지 모르는 사람들을 위해 적는다.
 
 Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 적혀있는 build.gradle에 적으라는 것이다.
 
 ![image](https://user-images.githubusercontent.com/74548646/196340040-36ff6936-5e7b-4b55-b20c-f269ba628a21.png)
 
+<br>
+
 그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
 
 ![image](https://user-images.githubusercontent.com/74548646/196340056-93bd07a5-418e-4b62-b30b-0ca32f735bde.png)
 
+<br>
+
 REFERENCE
 
 https://developer.android.com/kotlin/add-kotlin
+
+<br>
 
 ---
 
