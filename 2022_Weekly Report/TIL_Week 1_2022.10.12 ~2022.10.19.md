@@ -22,7 +22,6 @@
 
 ![image](https://user-images.githubusercontent.com/74548646/196339663-d9996379-1ea7-4788-9d3a-78f86a37b469.png)
 
-
 #### 
 
 #### View
@@ -87,6 +86,8 @@
 
 [Network Encyclopedia](https://networkencyclopedia.com/header/)
 
+
+
 `데이터를 전송하는 측면의 레이어`
 
 * 상위층에서 받은 **데이터에 Header를 붙여** 하위층에 넘긴다
@@ -101,7 +102,9 @@
 
 * 결국 전송측에서 보낸 **데이터만 남게된다.**
 
-### [참고] Packet이란?
+
+
+#### [참고] Packet이란?
 
 > Network에서 데이터를 주고받을 때 정해놓은 규칙
 
@@ -119,7 +122,11 @@
 
 Notification이란, 위 사진과 같은 것을 이야기한다.
 
+
+
 사진 속 Notification은 Notification 중 가장 간단한 형태이며 아이콘, 제목, 컨텐츠를 보여준다.
+
+
 
 이러한 Notification을 만드려면 **먼저 Notification Channel을 생성해야 한다.**
 
@@ -142,6 +149,8 @@ private fun createNotificationChannel(context: Context, importance: Int, showBad
 
 NotificationManager.createNotificationChannel()로 채널을 생성할 수 있다.
 
+
+
 채널의 아이디, 이름, 중요도로 생성한 NotificationChannel 객체를 인자로 전달한다.
 
 * Channel Id : 앱마다 유니크한 Id를 생성해야한다.
@@ -150,15 +159,23 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 * Channel Importance : 채널 중요도의 의미이며 IMPORTANCE_DEFAULT, IMPORTANCE_HIGH 등으로 설정할 수 있다.
 
+
+
 이제 Channel이 등록되었으니, Channel Id를 사용하여 Notification을 만들어주면 된다.
 
+
+
 만약 위와 같은 기본 Notification의 형태가 아닌 다른 style의 Notification을 사용하려면, 원하는 Style에 맞는 Notification을 선택하여 커스텀하면 된다.
+
+
 
 #### Style
 
 > 기본적인 Notification이 아닌 커스텀된 형태로 만들고 싶을 때가 있다.
 
 > 이럴 때 Android에선 자주 사용되는 Notification을 여러 Style로 만들어두었다.
+
+
 
 아래는 다양한 **Notification Style**중 몇 개를 들고와보았다.
 
@@ -186,6 +203,8 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 ![image](https://user-images.githubusercontent.com/74548646/196339967-0950117e-c5b6-4fd2-a200-5f03f96beb86.png)
 
+
+
 REFERENCE
 
 https://codechacha.com/ko/notifications-in-android/
@@ -196,8 +215,6 @@ https://codechacha.com/ko/notifications-in-android/
 
 #### Java로 만들어진 프로젝트에 Kotlin으로 코드짜기
 
-
-
 Java로 만들어진 프로젝트에 Kotlin 언어를 사용하기 위해선 Kotlin언어에 대한 설정이 되어있어야 한다.
 
 
@@ -207,9 +224,8 @@ Android Studio의 [File] - [Settings] 로 들어간 후 검색창에 kotlin을 �
 ![image](https://user-images.githubusercontent.com/74548646/196340002-b48fd9fd-ca66-42cc-9d56-4883e918a965.png)
 
 
+
 만약 plugin이 설치되어 있지 않다면 설치를 진행해주자.
-
-
 
 설치가 되어있는 상태라면, 위 빨간 밑줄과 같이 Kotlin 버전을 확인해주자.
 
@@ -245,20 +261,15 @@ Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 �
 ![image](https://user-images.githubusercontent.com/74548646/196340040-36ff6936-5e7b-4b55-b20c-f269ba628a21.png)
 
 
+
 그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
 
-
-
 ![image](https://user-images.githubusercontent.com/74548646/196340056-93bd07a5-418e-4b62-b30b-0ca32f735bde.png)
-
-
 
 
 
 REFERENCE
 
 https://developer.android.com/kotlin/add-kotlin
-
-
 
 ---
