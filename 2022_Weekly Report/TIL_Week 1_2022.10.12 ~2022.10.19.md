@@ -68,8 +68,6 @@
 
 > 회사 앱의 소스코드를 분석하다가 
 
-
-
 ## Header
 
 > 데이터 앞 부분에 `파일에 대한 정보`를 실어놓은 부분
@@ -108,35 +106,21 @@
 
 > 정보를 보낼 때 특정 형태를 맞추어 보낸다는 것
 
-
-
 ---
-
-
 
 ### 2022.10.14
 
 #### [안드로이드에서 Notification이란?](https://pythontoomuchinformation.tistory.com/manage/posts/)
 
-
-
 ### Notification
 
 <img title="" src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-41-58-image.png" alt="" width="250">
 
-
-
 Notification이란, 위 사진과 같은 것을 이야기한다.
-
-
 
 사진 속 Notification은 Notification 중 가장 간단한 형태이며 아이콘, 제목, 컨텐츠를 보여준다.
 
-
-
 이러한 Notification을 만드려면 **먼저 Notification Channel을 생성해야 한다.**
-
-
 
 다음 코드는 Channel을 생성하는 코드이다.
 
@@ -155,13 +139,9 @@ private fun createNotificationChannel(context: Context, importance: Int, showBad
 }
 ```
 
-
-
 NotificationManager.createNotificationChannel()로 채널을 생성할 수 있다.
 
 채널의 아이디, 이름, 중요도로 생성한 NotificationChannel 객체를 인자로 전달한다.
-
-
 
 * Channel Id : 앱마다 유니크한 Id를 생성해야한다.
 
@@ -169,15 +149,9 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 * Channel Importance : 채널 중요도의 의미이며 IMPORTANCE_DEFAULT, IMPORTANCE_HIGH 등으로 설정할 수 있다.
 
-
-
 이제 Channel이 등록되었으니, Channel Id를 사용하여 Notification을 만들어주면 된다.
 
-
-
 만약 위와 같은 기본 Notification의 형태가 아닌 다른 style의 Notification을 사용하려면, 원하는 Style에 맞는 Notification을 선택하여 커스텀하면 된다.
-
-
 
 #### Style
 
@@ -185,11 +159,7 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 > 이럴 때 Android에선 자주 사용되는 Notification을 여러 Style로 만들어두었다.
 
-
-
 아래는 다양한 **Notification Style**중 몇 개를 들고와보았다.
-
-
 
 * `BigText`
   
@@ -199,19 +169,11 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 <img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-48-22-image.png" title="" alt="" width="237">
 
-
-
-
-
 * `BigPicture`
   
   * 큰 이미지를 보여준다.
 
 <img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-48-46-image.png" title="" alt="" width="228">
-
-
-
-
 
 * `Head up Notification`
   
@@ -223,11 +185,80 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 <img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-14-13-51-01-image.png" title="" alt="" width="244">
 
+REFERENCE
+
+https://codechacha.com/ko/notifications-in-android/
+
+---
+
+### 2022.10.17
+
+#### Java로 만들어진 프로젝트에 Kotlin으로 코드짜기
+
+
+
+Java로 만들어진 프로젝트에 Kotlin 언어를 사용하기 위해선 Kotlin언어에 대한 설정이 되어있어야 한다.
+
+
+
+Android Studio의 [File] - [Settings] 로 들어간 후 검색창에 kotlin을 검색한다.
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-18-13-41-09-image.png)
+
+
+
+만약 plugin이 설치되어 있지 않다면 설치를 진행해주자.
+
+
+
+설치가 되어있는 상태라면, 위 빨간 밑줄과 같이 Kotlin 버전을 확인해주자.
+
+```bash
+212-1.7.10-release-333-AS5457.46
+```
+
+여기서 버전은 1.7.10을 가리킨다.
+
+
+
+Project `build.gradle`파일에 들어가 아래와 같이 Kotlin의 버전과 classpath가 선언되어있는지 확인해주고 그렇지 않다면 선언해주자.
+
+```bash
+// Project build.gradle file.
+buildscript {
+    ext.kotlin_version = '1.4.10'
+    ...
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+```
+
+
+
+혹시나 해서 덧붙이는 건데, 나와 같이 build.gradle에 입력하라고 말하면 많은 build.gradle파일 중 어디에 입력하라는건지 모르는 사람들을 위해 적는다.
+
+
+
+Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 적혀있는 build.gradle에 적으라는 것이다.
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-18-13-55-34-image.png)
+
+
+
+그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
+
+
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-18-13-58-03-image.png)
+
+
+
 
 
 REFERENCE
 
-https://codechacha.com/ko/notifications-in-android/
+https://developer.android.com/kotlin/add-kotlin
 
 
 
