@@ -4,9 +4,9 @@
 
 <br>
 
-### 2022.10.12
+### 📌 2022.10.12
 
-#### [MVVM 패턴이란 무엇인가?]([[Android] MVVM패턴에 대해 간단히 알아보자](https://pythontoomuchinformation.tistory.com/655))
+#### [MVVM 패턴이란 무엇인가?](https://pythontoomuchinformation.tistory.com/655)
 
 >  회사 코드를 분석하다가 **MVVM패턴을 따르고 있는 앱** 이라는 이야기를 듣고, 그동안 궁금했던 이 패턴에 대해 알아보기로 하였다.
 
@@ -48,8 +48,6 @@
 > MVC패턴의 Controller와 다른점은 `View가 ViewModel을 관찰하는 형태`로 binding되어 있다. 
 > 따라서 LiveData라이브러리를 통해 데이터 업데이트를 View가 자동으로 받을 수 있는 형태이다.
 
-
-
 #### 기타
 
 `각 컴포넌트(View, ViewMode, Model)는` 서로 Reference를 가지지 않고 View -> ViewModel -> Model 형태의 `단방향 Dependency`를 가진다.
@@ -58,7 +56,7 @@
 
 ---
 
-### 2022.10.13
+### 📌 2022.10.13
 
 #### [Network에서 header란?](https://pythontoomuchinformation.tistory.com/656)
 
@@ -116,13 +114,13 @@
 
 ---
 
-### 2022.10.14
+### 📌2022.10.14
 
 #### [안드로이드에서 Notification이란?](https://pythontoomuchinformation.tistory.com/manage/posts/)
 
 <br>
 
-### Notification
+## Notification
 
 ![image](https://user-images.githubusercontent.com/74548646/196339856-6090bdb8-8a41-4ffe-bc78-1002900e1744.png)
 
@@ -171,13 +169,11 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 <br>
 
-#### Style
+### Style
 
 > 기본적인 Notification이 아닌 커스텀된 형태로 만들고 싶을 때가 있다.
 
 > 이럴 때 Android에선 자주 사용되는 Notification을 여러 Style로 만들어두었다.
-
-
 
 <br>
 
@@ -217,9 +213,9 @@ https://codechacha.com/ko/notifications-in-android/
 
 ---
 
-### 2022.10.17
+### 📌2022.10.17
 
-#### Java로 만들어진 프로젝트에 Kotlin으로 코드짜기
+## Java로 만들어진 프로젝트에 Kotlin으로 코드짜기
 
 Java로 만들어진 프로젝트에 Kotlin 언어를 사용하기 위해선 Kotlin언어에 대한 설정이 되어있어야 한다.
 
@@ -260,13 +256,13 @@ buildscript {
 
 Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 적혀있는 build.gradle에 적으라는 것이다.
 
-![image](https://user-images.githubusercontent.com/74548646/196340040-36ff6936-5e7b-4b55-b20c-f269ba628a21.png)
+<img src="https://user-images.githubusercontent.com/74548646/196340040-36ff6936-5e7b-4b55-b20c-f269ba628a21.png" title="" alt="image" width="393">
 
 <br>
 
 그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
 
-![image](https://user-images.githubusercontent.com/74548646/196340056-93bd07a5-418e-4b62-b30b-0ca32f735bde.png)
+<img src="https://user-images.githubusercontent.com/74548646/196340056-93bd07a5-418e-4b62-b30b-0ca32f735bde.png" title="" alt="image" width="343">
 
 <br>
 
@@ -278,6 +274,56 @@ https://developer.android.com/kotlin/add-kotlin
 
 ---
 
-### 2022.10.18
+### 📌2022.10.18
 
-#### Java언어와 Lombok 라이브러리를 사용하는  Android 프로젝트에 Kotlin사용하기
+## Kotlin 파일은 Java파일의 Lombok 라이브러리와 호환되지 않는다
+
+재직중인 회사의 **Java와 Android Studio 기반 어플리케이션**을 Java언어에서 **Kotlin으로 컨버팅**하라는 업무 지시가 내려졌다. 컨버팅 하던 중 Java파일로 실행하였을 땐 괜찮았던 **get메서드가 인식이 되지 않았다.**
+
+<br>
+
+소스를 분석해보니 **Java파일에선 lombok 라이브러리를 사용**해 getter/setter를 생성해주었었다.
+
+`즉, Kotlin 파일이 lombok라이브러리의 getter/setter을 인식하지 못하고 있는 것이었다.`
+
+<br>
+
+이에 대해 많은 고민을 하였지만 `결국 기존 Java코드에서 lombok 라이브러리를 제거하면서 까지 Kotlin으로 컨버팅하기로 결정하였다.`
+
+<br>
+
+비록 Lombok을 사용함에 따라 얻을 수 있었던 코드의 간결함이란 장점을 포기해야하지만, Kotlin으로 컨버팅 하는 과정이 더 우선시되어야 한다고 생각했다.
+
+> 앞으로 자사 모든 Android 앱에서는 Kotlin을 적극 사용할 예정이기 때문에 차차 Kotlin 사용에 대비해야함
+
+> Lombok에 대해 포기하지 않는다면 컨버팅 작업이 더뎌질 것임
+
+
+
+따라서 VO를 다음과 같이 바꿔주는 작업을 진행했다.
+
+```java
+public class ResponseResult {
+
+    private ResponseHeader header;
+
+    // private인 header의 getter/setter 직접 만들어주었다.
+    public ResponseHeader getHeader() {
+        return header;
+    }
+
+    public void setHeader(ResponseHeader header) {
+        this.header = header;
+    }
+}
+```
+
+
+
+REFERENCE
+
+[NAVER D2](https://d2.naver.com/helloworld/6685007)
+
+
+
+---
