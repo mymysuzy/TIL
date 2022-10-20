@@ -256,13 +256,13 @@ buildscript {
 
 Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 적혀있는 build.gradle에 적으라는 것이다.
 
-<img src="https://user-images.githubusercontent.com/74548646/196340040-36ff6936-5e7b-4b55-b20c-f269ba628a21.png" title="" alt="image" width="393">
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-10-40-35-image.png)
 
 <br>
 
 그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
 
-<img src="https://user-images.githubusercontent.com/74548646/196340056-93bd07a5-418e-4b62-b30b-0ca32f735bde.png" title="" alt="image" width="343">
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-10-40-57-image.png)
 
 <br>
 
@@ -276,7 +276,7 @@ https://developer.android.com/kotlin/add-kotlin
 
 ### 📌2022.10.18
 
-## Kotlin 파일은 Java파일의 Lombok 라이브러리와 호환되지 않는다
+## Kotlin 파일은 Java파일의 Lombok 라이브러리와 호환되기 힘들다
 
 재직중인 회사의 **Java와 Android Studio 기반 어플리케이션**을 Java언어에서 **Kotlin으로 컨버팅**하라는 업무 지시가 내려졌다. 컨버팅 하던 중 Java파일로 실행하였을 땐 괜찮았던 **get메서드가 인식이 되지 않았다.**
 
@@ -298,8 +298,6 @@ https://developer.android.com/kotlin/add-kotlin
 
 > Lombok에 대해 포기하지 않는다면 컨버팅 작업이 더뎌질 것임
 
-
-
 따라서 VO를 다음과 같이 바꿔주는 작업을 진행했다.
 
 ```java
@@ -318,12 +316,45 @@ public class ResponseResult {
 }
 ```
 
-
-
 REFERENCE
 
 [NAVER D2](https://d2.naver.com/helloworld/6685007)
 
+---
 
+### 📌2022.10.19
+
+<br>
+
+#### Android에서 values의 Strings.xml에 없는 값을 사용해도 실행이 잘 되는 경우
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-15-58-14-image.png)
+
+외주를 맡겼던 소스에 위와 같이 string값을 찾을 수 없다는 빨간색 에러가 떴다. 그런데 막상 앱을 실행시키면 별다른 오류없이 잘 실행된다. 
+
+<br>
+
+우선 해당 데이터가 어디에 있는지 확인하기 위해 import한 `R의 위치`가 어디인지 확인해보았다. 그리고 해당 위치에 있는 res - values - `strings.xml`을 확인해보았지만 위 데이터는 찾아볼 수 없었다.
+
+<br>
+
+이러한 이유는 **외주를 맡겼던 소스에서 존재했던 default_web_client_id값**이기 때문에, 현재 앱의 values - strings.xml 위치에는 해당 데이터가 전혀 존재하지 않지만 **바이너리 파일 형식으로 어딘가에 남아있기 때문에 앱은 문제없이 잘 실행되는 것**이다.
+
+<br>
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-16-09-52-image.png)
+
+실제로 해당 앱의 `lib폴더`를 들어가면 .arr 형식의 여러 파일들이 존재하는데, 이중 하나가 에러가 뜬 클래스가 상속하는 라이브러리에 대한 바이너리 파일이다. 따라서 추측하건데 **.arr 형식의 외주업체의 라이브러리 파일에 위 데이터가 바이너리 형태로 들어가있지 않을까** 생각한다.
+
+<br>
+
+**[참고] ARR 파일**
+
+Android 라이브러리 프로젝트의 바이너리 배포판. Java 클래스 파일과 리소스가 합쳐진 형태.
+
+<br>
+
+REFERENCE
+https://m.blog.naver.com/tipsware/221353023593
 
 ---
