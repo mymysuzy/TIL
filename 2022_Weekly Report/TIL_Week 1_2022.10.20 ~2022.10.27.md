@@ -58,8 +58,6 @@ REFERENCE
 
 https://private.tistory.com/24
 
-
-
 <br>
 
 <br>
@@ -136,23 +134,19 @@ Subscriber가 Publisher를 구독하면 Publisher가 통지한 데이터를 Subs
 
 * onComplete : 완료 통지
 
-
-
 <br>
-
-
 
 REFERENCE
 
 https://velog.io/@seokzoo/1.-RxJava%EC%9D%98-%EA%B8%B0%EB%B3%B81
 
+### 
 
+### 📌 2022.10.21
 
 ## RxJava의 기본구조
 
 RxJava에서 생산자와 소비자는 크게 두 가지로 나눌 수 있다.
-
-
 
 * Reactive Stream을 지원하는 `Flowable(생산자)`와 `Subscriber(소비자)`
   
