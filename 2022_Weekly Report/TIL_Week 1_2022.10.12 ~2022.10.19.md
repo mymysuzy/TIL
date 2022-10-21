@@ -215,7 +215,7 @@ https://codechacha.com/ko/notifications-in-android/
 
 ### 📌2022.10.17
 
-## Java로 만들어진 프로젝트에 Kotlin으로 코드짜기
+## [Java 프로젝트에 Kotlin 언어 적용하기](https://pythontoomuchinformation.tistory.com/658)
 
 Java로 만들어진 프로젝트에 Kotlin 언어를 사용하기 위해선 Kotlin언어에 대한 설정이 되어있어야 한다.
 
@@ -276,7 +276,7 @@ https://developer.android.com/kotlin/add-kotlin
 
 ### 📌2022.10.18
 
-## Kotlin 파일은 Java파일의 Lombok 라이브러리와 호환되기 힘들다
+## [Kotlin 파일은 Java파일의 Lombok 라이브러리와 호환되기 힘들다](https://pythontoomuchinformation.tistory.com/659)
 
 재직중인 회사의 **Java와 Android Studio 기반 어플리케이션**을 Java언어에서 **Kotlin으로 컨버팅**하라는 업무 지시가 내려졌다. 컨버팅 하던 중 Java파일로 실행하였을 땐 괜찮았던 **get메서드가 인식이 되지 않았다.**
 
@@ -324,9 +324,9 @@ REFERENCE
 
 ### 📌2022.10.19
 
-<br>
+## [values의 strings.xml에 없는 값을 사용해도 실행이 잘 되는 경우](https://pythontoomuchinformation.tistory.com/660)
 
-#### Android에서 values의 Strings.xml에 없는 값을 사용해도 실행이 잘 되는 경우
+<br>
 
 ![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-15-58-14-image.png)
 
@@ -334,11 +334,11 @@ REFERENCE
 
 <br>
 
-우선 해당 데이터가 어디에 있는지 확인하기 위해 import한 `R의 위치`가 어디인지 확인해보았다. 그리고 해당 위치에 있는 res - values - `strings.xml`을 확인해보았지만 위 데이터는 찾아볼 수 없었다.
+우선 해당 데이터가 어디에 있는지 확인하기 위해 import한 `R의 위치`가 어디인지 확인해보았다. 그리고 해당 package에 있는 res - values - `strings.xml`을 확인해보았지만 위 데이터는 찾아볼 수 없었다.
 
 <br>
 
-이러한 이유는 **외주를 맡겼던 소스에서 존재했던 default_web_client_id값**이기 때문에, 현재 앱의 values - strings.xml 위치에는 해당 데이터가 전혀 존재하지 않지만 **바이너리 파일 형식으로 어딘가에 남아있기 때문에 앱은 문제없이 잘 실행되는 것**이다.
+이러한 이유는 **외주를 맡겼던 패키지에서 존재했던 default_web_client_id값**이기 때문에, 현재 앱 내에서의 어느 패키지의 values - strings.xml 위치에도 해당 데이터가 전혀 존재하지 않지만 **바이너리 파일 형식으로 어딘가에 남아있기 때문에 앱은 문제없이 잘 실행되는 것**이다.
 
 <br>
 
