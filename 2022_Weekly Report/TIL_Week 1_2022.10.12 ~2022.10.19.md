@@ -256,13 +256,13 @@ buildscript {
 
 Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 적혀있는 build.gradle에 적으라는 것이다.
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-10-40-35-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197478465-24a83772-9d9f-4525-b204-4e5701d024d1.png)
 
 <br>
 
 그 외 build.gradle은 Module에 적으라는 표현을 쓴다.
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-10-40-57-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197478636-1abc2e6e-cb4f-4517-a0bb-b2f197042b3b.png)
 
 <br>
 
@@ -328,7 +328,7 @@ public class ResponseResult {
 
 <br>
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-15-58-14-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197478731-5889816b-00e0-4e52-a958-ea4a612beadf.png)
 
 외주를 맡겼던 소스에 위와 같이 string값을 찾을 수 없다는 빨간색 에러가 떴다. 그런데 막상 앱을 실행시키면 별다른 오류없이 잘 실행된다. 
 
@@ -342,7 +342,8 @@ public class ResponseResult {
 
 <br>
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-19-16-09-52-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197478863-d9830754-a270-4154-91b8-5c33adefca14.png)
+
 
 실제로 해당 앱의 `lib폴더`를 들어가면 .arr 형식의 여러 파일들이 존재하는데, 이중 하나가 에러가 뜬 클래스가 상속하는 라이브러리에 대한 바이너리 파일이다. 따라서 추측하건데 **.arr 형식의 외주업체의 라이브러리 파일에 위 데이터가 바이너리 형태로 들어가있지 않을까** 생각한다.
 
