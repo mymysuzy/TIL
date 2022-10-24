@@ -51,8 +51,7 @@
 ```
 예시) 
 
-카페의 바리스타가 한꺼번에 모든 손님의 주문을 받은 뒤 
-커피를 다 만들면면 진동벨로 알려준다. 
+카페의 바리스타가 한꺼번에 모든 손님의 주문을 받은 뒤 커피를 다 만들면면 진동벨로 알려준다. 
 
 이 때 손님은 커피를 기다리는 동안 휴대폰을 보거나 화장실을 이용할 수 있다. 🤗
 ```
@@ -119,7 +118,7 @@ Subscriber가 Publisher를 구독하면 Publisher가 통지한 데이터를 Subs
 
 <br>
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-20-14-45-25-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197479018-b58bf2a2-99d9-4c71-850e-99754b78b39a.png)
 
 * Publisher는 통지 준비가 끝나면 Subscriber에 통지(`onSubscribe`)한다.
 
@@ -317,6 +316,8 @@ Android가 데이터를 서버와 주고받을 때, 서버를 통해 받는 데�
 **단점**
 
 캐싱 구현 난이도 높음
+
+<br>
 
 # 💌오늘의 한마디
 
