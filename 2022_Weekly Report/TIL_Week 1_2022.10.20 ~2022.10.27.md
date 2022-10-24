@@ -51,8 +51,7 @@
 ```
 예시) 
 
-카페의 바리스타가 한꺼번에 모든 손님의 주문을 받은 뒤 
-커피를 다 만들면면 진동벨로 알려준다. 
+카페의 바리스타가 한꺼번에 모든 손님의 주문을 받은 뒤 커피를 다 만들면면 진동벨로 알려준다. 
 
 이 때 손님은 커피를 기다리는 동안 휴대폰을 보거나 화장실을 이용할 수 있다. 🤗
 ```
@@ -67,15 +66,13 @@
 
 <br>
 
-REFERENCE
+**REFERENCE**
 
 https://private.tistory.com/24
 
 <br>
 
-<br>
-
-## 
+<br> 
 
 ## RxJava
 
@@ -149,7 +146,7 @@ Subscriber가 Publisher를 구독하면 Publisher가 통지한 데이터를 Subs
 
 <br>
 
-REFERENCE
+**REFERENCE**
 
 https://velog.io/@seokzoo/1.-RxJava%EC%9D%98-%EA%B8%B0%EB%B3%B81
 
@@ -317,6 +314,8 @@ Android가 데이터를 서버와 주고받을 때, 서버를 통해 받는 데�
 **단점**
 
 캐싱 구현 난이도 높음
+
+<br>
 
 # 💌오늘의 한마디
 

@@ -6,7 +6,7 @@
 
 ### 📌 2022.10.12
 
-#### [MVVM 패턴이란 무엇인가?](https://pythontoomuchinformation.tistory.com/655)
+## [MVVM 패턴이란 무엇인가?](https://pythontoomuchinformation.tistory.com/655)
 
 >  회사 코드를 분석하다가 **MVVM패턴을 따르고 있는 앱** 이라는 이야기를 듣고, 그동안 궁금했던 이 패턴에 대해 알아보기로 하였다.
 
@@ -58,7 +58,7 @@
 
 ### 📌 2022.10.13
 
-#### [Network에서 header란?](https://pythontoomuchinformation.tistory.com/656)
+## [Network에서 header란?](https://pythontoomuchinformation.tistory.com/656)
 
 <br>
 
@@ -116,7 +116,7 @@
 
 ### 📌2022.10.14
 
-#### [안드로이드에서 Notification이란?](https://pythontoomuchinformation.tistory.com/manage/posts/)
+## [안드로이드에서 Notification이란?](https://pythontoomuchinformation.tistory.com/manage/posts/)
 
 <br>
 
@@ -205,7 +205,7 @@ NotificationManager.createNotificationChannel()로 채널을 생성할 수 있�
 
 <br>
 
-REFERENCE
+**REFERENCE**
 
 https://codechacha.com/ko/notifications-in-android/
 
@@ -266,7 +266,7 @@ Project build.gradle 파일에 적으라는 말은 아래와 같이 Project라 �
 
 <br>
 
-REFERENCE
+**REFERENCE**
 
 https://developer.android.com/kotlin/add-kotlin
 
@@ -316,7 +316,7 @@ public class ResponseResult {
 }
 ```
 
-REFERENCE
+**REFERENCE**
 
 [NAVER D2](https://d2.naver.com/helloworld/6685007)
 
@@ -354,7 +354,7 @@ Android 라이브러리 프로젝트의 바이너리 배포판. Java 클래스 �
 
 <br>
 
-REFERENCE
+**REFERENCE**
 https://m.blog.naver.com/tipsware/221353023593
 
 ---
