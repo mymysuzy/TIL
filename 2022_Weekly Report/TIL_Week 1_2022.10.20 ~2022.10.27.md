@@ -375,8 +375,7 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 * 서버 개발자들이 특정한 값을 `header에 실어 보내달라 요청`할 때 있다
 
 
-
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-09-09-image.png)<br>
+![image](https://user-images.githubusercontent.com/74548646/197688070-43ee0e72-4574-463e-a10c-4f98a9081485.png)
 
 #### Request Body
 
@@ -386,7 +385,7 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 * `JSON형태`로 보낸다
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-08-34-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197688030-1aab7e92-5c16-4b90-8f7d-42bfe66bf1aa.png)
 
 <br>
 
@@ -394,7 +393,7 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 * GET, POST, DELETE, PUT, HEAD, CONNECT ...등
 
-<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-25-14-07-51-image.png" title="" alt="" width="387">
+![image](https://user-images.githubusercontent.com/74548646/197688001-26ce0d4d-46c6-4fc0-86f8-180fbdcc4ac7.png)
 
 <br>
 
@@ -418,10 +417,10 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
   
   * 404(not found, 너가 보낸 요청은 잘못되었다)
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-07-10-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197687967-d3f6c535-b37d-48ec-95d9-55726278d7f6.png)
 
 <br>
 
 **[참고] HTTP 응답코드에 대한 분류**
 
-![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-05-03-image.png)
+![image](https://user-images.githubusercontent.com/74548646/197687941-03341a02-7728-467f-a08d-1c86b9beb8dc.png)
