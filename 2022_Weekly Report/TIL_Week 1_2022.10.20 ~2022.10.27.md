@@ -270,7 +270,26 @@ Android가 데이터를 서버와 주고받을 때, 서버를 통해 받는 데�
 
 <br>
 
-## 5️⃣ Network
+# 💌오늘의 한마디
+
+```
+내 특유의 꼼꼼한 성격이 한동안 말썽이었다😥 
+
+FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
+성취감 부족, 자신감 하락, 의욕 하락의 부정적 영향이 생겼다
+
+그래서 다시금 마음을 다잡고 일단은 모든 진도를 빠르게 빼기로 했다
+
+다시 화이팅!
+```
+
+---
+
+<br>
+
+### 📌 2022.10.25
+
+## Network
 
 >  두대 이상의 컴퓨터를 연결하는 것
 
@@ -284,6 +303,14 @@ Android가 데이터를 서버와 주고받을 때, 서버를 통해 받는 데�
 2) 서버 -> 인터넷 -> 클라이언트(앱) : **응답**
    
    -> 화면을 그릴 수 있는 데이터 여기있어
+
+<br>
+
+### 네트워킹
+
+> 서버와 클라이언트의 의사소통
+
+> 네트워크 약속(프로토콜)이 존재
 
 <br>
 
@@ -317,15 +344,84 @@ Android가 데이터를 서버와 주고받을 때, 서버를 통해 받는 데�
 
 <br>
 
-# 💌오늘의 한마디
+#### 프로토콜의 종류
 
-```
-내 특유의 꼼꼼한 성격이 한동안 말썽이었다😥 
+* FTP : 파일 전송 규약
 
-FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
-성취감 부족, 자신감 하락, 의욕 하락의 부정적 영향이 생겼다
+* SMTP : 메일 전송 규약
 
-그래서 다시금 마음을 다잡고 일단은 모든 진도를 빠르게 빼기로 했다
+* `HTTP` : 인터넷 서비스 규약  -> 우리가 배워야할 규약
 
-다시 화이팅!
-```
+
+
+<br>
+
+### Request
+
+> 클라이언트가 서버에게 보내는 요청
+
+> 이때 HTTP 규약을 따라야 한다
+
+
+
+<br>
+
+
+
+#### Request Header
+
+* 요청에 대한 추가정보를 기입하는 곳
+
+* 서버 개발자들이 특정한 값을 `header에 실어 보내달라 요청`할 때 있다
+
+
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-09-09-image.png)<br>
+
+#### Request Body
+
+* 추가적인 요청이 있을 때 추가적인 정보를 기재하는 곳
+  
+  * 예) 모든 학생들의 정보가 아닌 id가 1인 학생의 정보만 가져와달라는 요청
+
+* `JSON형태`로 보낸다
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-08-34-image.png)
+
+<br>
+
+#### Request Method
+
+* GET, POST, DELETE, PUT, HEAD, CONNECT ...등
+
+<img src="file:///C:/Users/sohyun/AppData/Roaming/marktext/images/2022-10-25-14-07-51-image.png" title="" alt="" width="387">
+
+<br>
+
+### Response
+
+> 서버가 클라이언트에 보내는 응답
+
+
+
+<br>
+
+#### Response Code
+
+* `Status 코드`
+  
+  * 200(성공)
+  
+  * 201(너가 요청한 요구사항 잘 처리 되었음)
+  
+  * 401(너는 요청에 대한 결과를 볼 권한이 없다)
+  
+  * 404(not found, 너가 보낸 요청은 잘못되었다)
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-07-10-image.png)
+
+<br>
+
+**[참고] HTTP 응답코드에 대한 분류**
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-05-03-image.png)
