@@ -150,7 +150,9 @@ Subscriber가 Publisher를 구독하면 Publisher가 통지한 데이터를 Subs
 
 https://velog.io/@seokzoo/1.-RxJava%EC%9D%98-%EA%B8%B0%EB%B3%B81
 
-### 
+---
+
+<br>
 
 ### 📌 2022.10.21
 
@@ -169,6 +171,8 @@ RxJava에서 생산자와 소비자는 크게 두 가지로 나눌 수 있다.
   * Observable은 Reactive Streams를 구현하지 않지만 기본적인 메커니즘과 구성은 Flowable과 거의 같다. 다만 Observable과 Observer구성은 통지하는 데이터 개수를 제어하는 배압기능이 없기 때문에 데이터 개수를 요청하지 않는다.
   
   * 따라서 Subscription 대신 `Disposable`이라는 구독 해지 메소드가 있는 인터페이스를 이용한다. Disposable은 onSubscribe()메소드의 인자로 Observer에 전달되며 구독 해지를 위한 메소드 dispose()와 isDisposed()가 있다. 따라서 Observable과 Observer간에 데이터 교환 시에는 Flowable과 Subscriber처럼 데이터 개수 요청은 하지 않고 데이터가 생성되자마자 Observer에 통지된다.
+
+---
 
 <br>
 
@@ -352,8 +356,6 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 * `HTTP` : 인터넷 서비스 규약  -> 우리가 배워야할 규약
 
-
-
 <br>
 
 ### Request
@@ -362,11 +364,7 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 > 이때 HTTP 규약을 따라야 한다
 
-
-
 <br>
-
-
 
 #### Request Header
 
@@ -374,8 +372,9 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 * 서버 개발자들이 특정한 값을 `header에 실어 보내달라 요청`할 때 있다
 
-
 ![image](https://user-images.githubusercontent.com/74548646/197688070-43ee0e72-4574-463e-a10c-4f98a9081485.png)
+
+<br> 
 
 #### Request Body
 
@@ -401,8 +400,6 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 > 서버가 클라이언트에 보내는 응답
 
-
-
 <br>
 
 #### Response Code
@@ -424,3 +421,124 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 **[참고] HTTP 응답코드에 대한 분류**
 
 ![image](https://user-images.githubusercontent.com/74548646/197687941-03341a02-7728-467f-a08d-1c86b9beb8dc.png)
+
+<br>
+
+#### JSON
+
+> 키-벨류 방식
+
+* {} : 객체 표현
+
+* [] : 배열 표현
+
+![](C:\Users\sohyun\AppData\Roaming\marktext\images\2022-10-25-14-33-20-image.png)
+
+<br>
+
+---
+
+<br>
+
+### 📌 2022.10.26
+
+activity중에서 가장 먼저 실행되는 activity클래스는 intent-filter태그 안의 main 그리고 launcher로 표시된 aictivity다.(main과 launcher는 한 액티비티에 십중팔구는 같이 사용된다)
+
+그러나 이 activity보다 더 먼저 실행되는 것이 있는게 그게 바로 application클래스이다.
+
+-> applicatin클래스가 있는게 구지 single ton이 필요하냐?는 논쟁이 있다
+
+android의 경우 다른사람에게 공유할 땐 APK라는 압축파일로 파일만 전달할 수 있다. 그러나 iOS의 경우엔 테스트 플라이트라는 사이트를 통해 전달하려는 사람이 빌드를 하여 업로드한 뒤 공유하고싶은 사람의 이메일을 기입하면 해당 사람들에게만 공유되도록 되어있다.
+
+<br>
+
+## 테스트를 위한 iOS 어플리케이션 배포 방식
+
+```
+iOS개발을 완료하였다! 이제 여러 기기에서 테스트 해보고 싶다.
+
+이럴 때 Android의 경우 단순하게 apk를 빌드해서 다른사람에게 파일로 전송해주면된다.
+
+하지만 iOS의 경우엔 조금 다르다. ipa 자체로 설치가 불가능하기 때문이다.
+```
+
+<br>
+
+### 방법 1️⃣ 개발용 테스트
+
+> 가내수공업 빌드
+
+그냥 컴퓨터와 휴대폰 기기를 선으로 직접적으로 연결해주고 빌드하면 된다.
+
+<br>
+
+일일이 기기 하나하나 꼽아가며 빌드해주어야하기 때문에 수고로움이 크다.
+
+<br>
+
+### 방법 2️⃣ 애드혹(adhoc)
+
+애드혹 방식(over the air)은 단순하다
+테스트기기의 uuid를 등록 및 배포하고 해당기기에서 테스트 하는 방식
+
+<br>
+
+* 개발완료
+* 테스트기기의 uuid 수집
+* 해당 uuid를 개발자 센터에 등록
+* 빌드 후 export하여 드랍박스 등의 서버에 업로드
+* 해당 기기에 받아서 테스트
+
+<br>
+
+**[참고] over the air**
+펌웨어 업데이트 방식 중 하나
+컴퓨터에 연결하지 않고 Wi-Fi등을 사용해 무선으로 펌웨어를 업데이트 하는 기술
+
+<br>
+
+### 방법 3️⃣ 테스트 플라이트(베타테스트)
+
+앱설치 등 통계치를 관리하고 모니터링 할 수 있다.
+그야말로 베타 테스트로 제격!
+
+<br>
+
+내부 배포와 외부 배포 방식이 있다.
+
+<br>
+
+* `내부 배포` : 이메일(애플id)을 받아 초대하는 방식
+
+* `외부 배포` : 이메일 필요없이 설치 링크를 전달하는 방식
+
+<br>
+
+하지만 앱심사를 통과해야 한다
+
+<br>
+
+### 방법 4️⃣ 엔터프라이즈
+
+uuid등록이나 이메일이 필요하거나 하지 않다
+
+배포하면 테스트를 원하는 모두에게 설치가 가능하다(배포 빌드 시 over the air방식으로 배포된다)
+
+iOS를 배포할 수 있는 방법 중 가장 편하고, 앱스토어가 아닌 곳에서 불특정 다수에게 배포하기 위해선 엔터프라이즈가 적격이긴 하지만!
+
+<br>
+
+연간 비용이 한화 약 30만원이며 신청과정도 까다롭기 때문에 현업에선 잘 사용하지 않는다
+
+<br>
+
+### 결론
+
+애드훅이나 테스트 플라이트를 현업에선 많이 사용한다
+
+<br>
+
+**REFERENCE**
+https://ithoon.tistory.com/30
+https://www.blueswt.com/124
+https://skytitan.tistory.com/346
