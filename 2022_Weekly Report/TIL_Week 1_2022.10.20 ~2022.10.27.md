@@ -436,19 +436,32 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 <br>
 
+# 💌오늘의 한마디
+
+```
+오늘 배운 Network부분은 ssafy에서 Web개발을 배울 때 배웠던 부분이라 쉬웠다
+
+ssafy에서 정말 어렵다고 느껴던 부분이었는데
+
+
+이제와서 보니 이렇게 쉬울 수가 없다...
+
+역시 여러번 봐야 익숙해지는구나 다시금 느꼈고
+
+
+나도 여러번의 반복을 거듭하면 잘 해내는 사람이구나 느꼈다!
+
+
+화이팅~~~
+```
+
 ---
 
 <br>
 
 ### 📌 2022.10.26
 
-activity중에서 가장 먼저 실행되는 activity클래스는 intent-filter태그 안의 main 그리고 launcher로 표시된 aictivity다.(main과 launcher는 한 액티비티에 십중팔구는 같이 사용된다)
-
-그러나 이 activity보다 더 먼저 실행되는 것이 있는게 그게 바로 application클래스이다.
-
 -> applicatin클래스가 있는게 구지 single ton이 필요하냐?는 논쟁이 있다
-
-android의 경우 다른사람에게 공유할 땐 APK라는 압축파일로 파일만 전달할 수 있다. 그러나 iOS의 경우엔 테스트 플라이트라는 사이트를 통해 전달하려는 사람이 빌드를 하여 업로드한 뒤 공유하고싶은 사람의 이메일을 기입하면 해당 사람들에게만 공유되도록 되어있다.
 
 <br>
 
@@ -522,7 +535,7 @@ iOS개발을 완료하였다! 이제 여러 기기에서 테스트 해보고 싶
 
 uuid등록이나 이메일이 필요하거나 하지 않다
 
-배포하면 테스트를 원하는 모두에게 설치가 가능하다(배포 빌드 시 over the air방식으로 배포된다)
+배포하면 테스트를 원하는 모두에게 설치가 가능하다
 
 iOS를 배포할 수 있는 방법 중 가장 편하고, 앱스토어가 아닌 곳에서 불특정 다수에게 배포하기 위해선 엔터프라이즈가 적격이긴 하지만!
 
@@ -534,7 +547,7 @@ iOS를 배포할 수 있는 방법 중 가장 편하고, 앱스토어가 아닌 
 
 ### 결론
 
-애드훅이나 테스트 플라이트를 현업에선 많이 사용한다
+`애드훅`이나 `테스트 플라이트`를 현업에선 많이 사용한다
 
 <br>
 
@@ -542,3 +555,92 @@ iOS를 배포할 수 있는 방법 중 가장 편하고, 앱스토어가 아닌 
 https://ithoon.tistory.com/30
 https://www.blueswt.com/124
 https://skytitan.tistory.com/346
+
+<br>
+
+## Root Activity란?
+
+>  어플리케이션을 켰을 때 실행되는 최초의 Activity
+
+<br>
+
+Android 어플리케이션의 AndroidManifest.xml에서 intent-filter요소 안에 MAIN으로 선언되어 있으며 보통 LAUNCHER도 category 요소로 같이 선언되어 있다.
+
+<br>
+
+그런데 이러한 root activity보다 더 먼저 실행되는 것이 있다.
+
+바로 Application 클래스!
+
+## 
+
+<br>
+
+## Application 클래스란?
+
+application 클래스는 `어느 Component(Activity, Service, Intent 등)에서나 공유할 수 있는 전역 클래스`이며 `공동으로 관리해야하는 데이터를 작성하기에 적합`하다.
+
+<br>
+
+Application 클래스는 root activity와 마찬가지로 AndroidManifest.xml에 정의해서 사용하는데, application요소 안에 name속성으로 지정되어있는 클래스를 말한다.
+
+<br>
+
+Application 클래스는 다음과 같은 기능을 한다.
+
+* root activity를 만들기 전에 실행해야하는 특수 작업 처리
+
+* 모든 구성요소에서 공유해야하는 전역 초기화
+
+<br>
+
+**REFERENCE**
+
+[[Android] Application 클래스란?](https://onlyfor-me-blog.tistory.com/374)
+
+[[Android]액티비티와 태스크](https://promobile.tistory.com/202#:~:text=Root%20Activity%EB%8A%94%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98,%EC%B5%9C%EC%B4%88%EC%9D%98%20%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0%EB%A5%BC%20%EB%A7%90%ED%95%9C%EB%8B%A4.)
+
+<br>
+
+## TextUtils
+
+`isEmpty()`
+
+> String값에 대해 null체크를 해주는 메서드 isEmpty()를 제공한다
+
+<br>
+
+ value값이 null값은 아닌지 그리고 String값이 들어갔는지를 체크할 수 있다
+
+```kotlin
+TextUtils.isEmpty(value)
+```
+
+<br>
+
+String값이 들어왔다면 `true` 그렇지 않다면 `false`를 반환한다
+
+<br>
+
+`equals()`
+
+> 또한 null체크를 해주고, 두 개의 값이 같은 값인지 체크해주는 메서드 equals(a, b)를 제공한다
+
+<br>
+
+```kotlin
+TextUtils.equals(value1, value2)
+```
+
+<br>
+
+# 💌오늘의 한마디
+
+```
+Android 개발에 대해 너무 막막히만 생각했던 것 같다
+
+이렇게 차근차근 해나가니 점점 눈에 익혀지고 모바일개발이 재밌어진다
+
+
+TIL을 다시금 적게된 만큼 매주 금요일엔 복습하는 시간을 가져야겠다!
+```
