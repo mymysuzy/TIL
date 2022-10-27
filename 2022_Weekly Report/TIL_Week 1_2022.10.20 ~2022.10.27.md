@@ -644,3 +644,57 @@ Android 개발에 대해 너무 막막히만 생각했던 것 같다
 
 TIL을 다시금 적게된 만큼 매주 금요일엔 복습하는 시간을 가져야겠다!
 ```
+
+---
+
+<br>
+
+### 📌 2022.10.27
+
+## Kotlin에서의 object
+
+### 객체 표현식 및 선언
+
+때로는 새 하위 클래스를 명시적으로 선언하지 않고 일부 클래스를 약간 수정한 개체를 만들어야 하는 경우가 있습니다. Kotlin은 이를 객체 표현식(*Object expressions*)과 객체 선언(*object declarations*)으로 처리할 수 있습니다.
+
+<br>
+
+#### 객체 표현
+
+객체 표현식(*Object expressions*)은 익명 클래스, 즉 클래스 선언으로 명시적으로 선언되지 않은 클래스의 개체를 만듭니다. 이러한 클래스는 일회성으로 유용합니다. 처음부터 정의하거나 기존 클래스에서 상속하거나 인터페이스를 구현할 수 있습니다. 익명 클래스의 인스턴스는 이름이 아닌 식으로 정의되기 때문에 익명 개체(*anonymous objects*)라고도 합니다.
+
+<br>
+
+**슈퍼타입에서 익명 객체 상속하기**
+
+일부 유형(또는 유형)에서 상속하는 익명 클래스의 개체를 만들려면 개체와 콜론(:) 뒤에 이 유형을 지정합니다. 그런 다음 이 클래스에서 상속하는 것처럼 이 클래스의 멤버를 구현하거나 재정의합니다.
+
+```kotlin
+window.addMouseListener(object : MouseAdapter() {
+    override fun mouseClicked(e: MouseEvent) { /*...*/ }
+
+    override fun mouseEntered(e: MouseEvent) { /*...*/ }
+})
+```
+
+<br>
+
+상위 유형에 생성자가 있으면 적절한 생성자 매개변수를 전달하십시오. 콜론 뒤에 쉼표로 구분된 목록으로 여러 상위 유형을 지정할 수 있습니다.
+
+```kotlin
+open class A(x: Int) {
+    public open val y: Int = x
+}
+
+interface B { /*...*/ }
+
+val ab: A = object : A(1), B {
+    override val y = 15
+}
+```
+
+<br>
+
+REFERENCE
+
+https://kotlinlang.org/docs/object-declarations.html#semantic-difference-between-object-expressions-and-declarations
