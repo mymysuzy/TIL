@@ -1,12 +1,53 @@
 # TIL_Week 2
 
-> 2022.10.20 ~2022.10.27
+> 2022.10.19 ~2022.10.25
+
+<br>
+
+### 📌2022.10.19
+
+## [values의 strings.xml에 없는 값을 사용해도 실행이 잘 되는 경우](https://pythontoomuchinformation.tistory.com/660)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/74548646/197478731-5889816b-00e0-4e52-a958-ea4a612beadf.png)
+
+외주를 맡겼던 소스에 위와 같이 string값을 찾을 수 없다는 빨간색 에러가 떴다. 그런데 막상 앱을 실행시키면 별다른 오류없이 잘 실행된다. 
+
+<br>
+
+우선 해당 데이터가 어디에 있는지 확인하기 위해 import한 `R의 위치`가 어디인지 확인해보았다. 그리고 해당 package에 있는 res - values - `strings.xml`을 확인해보았지만 위 데이터는 찾아볼 수 없었다.
+
+<br>
+
+이러한 이유는 **외주를 맡겼던 패키지에서 존재했던 default_web_client_id값**이기 때문에, 현재 앱 내에서의 어느 패키지의 values - strings.xml 위치에도 해당 데이터가 전혀 존재하지 않지만 **바이너리 파일 형식으로 어딘가에 남아있기 때문에 앱은 문제없이 잘 실행되는 것**이다.
+
+<br>
+
+![image](https://user-images.githubusercontent.com/74548646/197478863-d9830754-a270-4154-91b8-5c33adefca14.png)
+
+실제로 해당 앱의 `lib폴더`를 들어가면 .arr 형식의 여러 파일들이 존재하는데, 이중 하나가 에러가 뜬 클래스가 상속하는 라이브러리에 대한 바이너리 파일이다. 따라서 추측하건데 **.arr 형식의 외주업체의 라이브러리 파일에 위 데이터가 바이너리 형태로 들어가있지 않을까** 생각한다.
+
+<br>
+
+**[참고] ARR 파일**
+
+Android 라이브러리 프로젝트의 바이너리 배포판. Java 클래스 파일과 리소스가 합쳐진 형태.
+
+<br>
+
+**REFERENCE**
+https://m.blog.naver.com/tipsware/221353023593
+
+---
 
 <br>
 
 ### 📌 2022.10.20
 
-## [동기와 비동기](https://pythontoomuchinformation.tistory.com/661)
+<br>
+
+## ✨ [동기와 비동기](https://pythontoomuchinformation.tistory.com/661)
 
 <br>
 
@@ -72,9 +113,9 @@ https://private.tistory.com/24
 
 <br>
 
-<br> 
+---
 
-## RxJava
+## ✨RxJava
 
 RxJava는 이벤트 처리와 같은 비동기 처리에 최적화 되었다. 
 
@@ -156,7 +197,9 @@ https://velog.io/@seokzoo/1.-RxJava%EC%9D%98-%EA%B8%B0%EB%B3%B81
 
 ### 📌 2022.10.21
 
-## RxJava의 기본구조
+<br>
+
+## ✨RxJava의 기본구조
 
 RxJava에서 생산자와 소비자는 크게 두 가지로 나눌 수 있다.
 
@@ -177,6 +220,8 @@ RxJava에서 생산자와 소비자는 크게 두 가지로 나눌 수 있다.
 <br>
 
 ### 📌 2022.10.24
+
+<br>
 
 ## 1️⃣ Tablayout, Pager
 
@@ -293,7 +338,9 @@ FastCampus의 강의 하나하나를 거의 외울듯이 수강하는 바람에
 
 ### 📌 2022.10.25
 
-## Network
+<br> 
+
+## ✨Network
 
 >  두대 이상의 컴퓨터를 연결하는 것
 
@@ -455,17 +502,9 @@ ssafy에서 정말 어렵다고 느껴던 부분이었는데
 화이팅~~~
 ```
 
----
-
 <br>
 
-### 📌 2022.10.26
-
--> applicatin클래스가 있는게 구지 single ton이 필요하냐?는 논쟁이 있다
-
-<br>
-
-## 테스트를 위한 iOS 어플리케이션 배포 방식
+## ✨테스트를 위한 iOS 어플리케이션 배포 방식
 
 ```
 iOS개발을 완료하였다! 이제 여러 기기에서 테스트 해보고 싶다.
@@ -558,7 +597,11 @@ https://skytitan.tistory.com/346
 
 <br>
 
-## Root Activity란?
+---
+
+<br>
+
+## ✨Root Activity란?
 
 >  어플리케이션을 켰을 때 실행되는 최초의 Activity
 
@@ -576,7 +619,7 @@ Android 어플리케이션의 AndroidManifest.xml에서 intent-filter요소 안�
 
 <br>
 
-## Application 클래스란?
+## ✨Application 클래스란?
 
 application 클래스는 `어느 Component(Activity, Service, Intent 등)에서나 공유할 수 있는 전역 클래스`이며 `공동으로 관리해야하는 데이터를 작성하기에 적합`하다.
 
@@ -602,7 +645,7 @@ Application 클래스는 다음과 같은 기능을 한다.
 
 <br>
 
-## TextUtils
+## ✨TextUtils
 
 `isEmpty()`
 
@@ -646,55 +689,3 @@ TIL을 다시금 적게된 만큼 매주 금요일엔 복습하는 시간을 가
 ```
 
 ---
-
-<br>
-
-### 📌 2022.10.27
-
-## Kotlin에서의 object
-
-### 객체 표현식 및 선언
-
-때로는 새 하위 클래스를 명시적으로 선언하지 않고 일부 클래스를 약간 수정한 개체를 만들어야 하는 경우가 있습니다. Kotlin은 이를 객체 표현식(*Object expressions*)과 객체 선언(*object declarations*)으로 처리할 수 있습니다.
-
-<br>
-
-#### 객체 표현
-
-객체 표현식(*Object expressions*)은 익명 클래스, 즉 클래스 선언으로 명시적으로 선언되지 않은 클래스의 개체를 만듭니다. 이러한 클래스는 일회성으로 유용합니다. 처음부터 정의하거나 기존 클래스에서 상속하거나 인터페이스를 구현할 수 있습니다. 익명 클래스의 인스턴스는 이름이 아닌 식으로 정의되기 때문에 익명 개체(*anonymous objects*)라고도 합니다.
-
-<br>
-
-**슈퍼타입에서 익명 객체 상속하기**
-
-일부 유형(또는 유형)에서 상속하는 익명 클래스의 개체를 만들려면 개체와 콜론(:) 뒤에 이 유형을 지정합니다. 그런 다음 이 클래스에서 상속하는 것처럼 이 클래스의 멤버를 구현하거나 재정의합니다.
-
-```kotlin
-window.addMouseListener(object : MouseAdapter() {
-    override fun mouseClicked(e: MouseEvent) { /*...*/ }
-
-    override fun mouseEntered(e: MouseEvent) { /*...*/ }
-})
-```
-
-<br>
-
-상위 유형에 생성자가 있으면 적절한 생성자 매개변수를 전달하십시오. 콜론 뒤에 쉼표로 구분된 목록으로 여러 상위 유형을 지정할 수 있습니다.
-
-```kotlin
-open class A(x: Int) {
-    public open val y: Int = x
-}
-
-interface B { /*...*/ }
-
-val ab: A = object : A(1), B {
-    override val y = 15
-}
-```
-
-<br>
-
-REFERENCE
-
-https://kotlinlang.org/docs/object-declarations.html#semantic-difference-between-object-expressions-and-declarations
