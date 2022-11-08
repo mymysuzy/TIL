@@ -170,17 +170,91 @@
   - 속성을 부여하는 뷰와 그 외부에 있는 뷰의 관계  
     - 예) layout_gravity="bottom|right"
 
-- 값의 종류  
-  
-  - top, bottom, left, right, start, end  
-  - center, center_vertical, center_horizontal  
-  - clip_vertical, clip_horizontal  
-    - 부모보다 큰 경우 잘라낸다  
-  - fill, fill_vertical, fill_horizontal  
+<br>
 
-- 두가지 속성을 부여하는 방버  
+<br>
+
+---
+
+# 📌 ScrollView
+
+> 채팅화면과 같은 것들을 구현 가능
+
+<br>
+
+* 자식을 오직 하나만 가질 수 있는 컨테이너 뷰
   
-  - gravity = "top|right"
+  * 자식뷰가 LinearLayout이면 여러개를 넣을 수 있다
+
+* 특이한 속성
+  
+  * fillViewPort
+    
+    * 여백이 있다면 여백을 자식뷰로 채워준다
+
+<br>
+
+<br>
+
+---
+
+# 📌 Resource
+
+> 반복되는 UI들을 효과적으로 관리할 수 있는 방법
+
+<br>
+
+* `drawable`
+  
+  * 실제 이미지 파일(jpg, png), 도형으로 만들어진 xml파일
+
+* `layout`
+  
+  * 화면을 구성하는 xml
+
+* `mipmap`
+  
+  * 앱의 아이콘이 온다
+
+* `values`
+  
+  * `colors`
+    
+    * 색
+  
+  * `string`
+    
+    * 문자열
+  
+  * `themes`
+    
+    * 기본 색깔이 지정되어있음
+
+<br>
+
+<br>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
