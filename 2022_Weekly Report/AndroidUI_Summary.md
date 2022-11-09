@@ -236,36 +236,94 @@
 
 ---
 
+# 📌 Scope함수
 
+> apply, also, run(with), let
 
+<br>
 
+#### 분류1
 
+* `apply`/`also` -> 스코프가 끝나면 **인스턴스(객체)를 반환**한다
 
+* `run(with)`/`let` -> 스코프가 끝나면 **최종값을 반환**한다
 
+<br>
 
+#### 분류2
 
+* `apply`/`run(with)` -> **this**가 넘어온다
+  
+  * `this`는 클래스 자체를 의미한다
+    
+    * 따라서 apply와 run(with)의 경우 해당 스코프가 끝나야 인스턴스가 만들어지는 것
+  
+  * 스코프 바깥의 변수를 지칭할 때, this.name 혹은 그냥 name으로 기재할 수 있다
+    
+    -> 스코프 밖에 있는 변수 이름과 혼동할 수 있다
 
+* `also`/`let` -> **it**이 넘어온다
+  
+  * `it`은 클래스로부터 만들어진 인스턴스 객체를 의미한다
+    
+    * 따라서 이미 만들어진 객체가 it이란 이름으로 스코프에 넘어오는 것
+  
+  * 스코프 바깥의 변수를 지칭할 때, 반드시 it을 붙여 it.name이라 기재해야 한다
+    
+    -> 스코프 밖에 있는 변수 이름과의 혼동을 방지한다
 
+<br>
 
+#### apply
 
+* 객체를 초기화할 때 사용하면 좋다
 
+```kotlin
+val gildong = Person().apply{ this: Person
+    name = "길동"
+    age = 20
+}
+```
 
+<br>
 
+#### also
 
+* 유효성 검사하기 좋다
+* 수신된 객체의 속성을 변경하지 않고 사용할 때
 
+```kotlin
+val gildong = Person("victor").also{ it: Person
+    //nameIsGildong -> 이름이 gildong인 경우 true 그렇지 않은 경우 false반환하는 메서
+    nameIsGildong(it.name)
+}
+```
 
+<br>
 
+#### run
 
+* 기본적으로 `apply`와 동일하다
+* 스코프의 마지막줄을 리턴한다 -> 특정 계산 결과값이 필요한 경우
 
+```kotlin
+val ageAfter10years = Person("gildong", 10).run{ this: Person
+    age!! + 10
+}
+```
 
+<br>
 
+#### let
 
+* 기본적으로 `also`와 동일하다
+* 스코프의 마지막줄을 리턴한다
+* 아래와 같이 "`let` 앞에 있는 클래스가 null이 아니라면 스코프 안에 있는 코드를 실행하겠다"와 같은 형태로 많이 사용한다
 
+```kotlin
+val gildong = Person("victor")?.let{ it: Person
 
+}
+```
 
-
-
-
-
-
-
+<br>
